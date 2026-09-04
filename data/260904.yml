@@ -7,18 +7,18 @@ about:
   head: 89425c3
   archived: false
   latestVersion: v6.1.1
-  collectedAt: 2026-09-04T20:12:03Z
+  collectedAt: 2026-09-04T20:36:29Z
 timeline:
   created: 2017-11-01
   lastCommit: 2026-09-04
   lastRelease: 2026-09-02
 popularity:
-  star: 32771
+  star: 32770
   watcher: 221
-  fork: 3354
+  fork: 3356
   release: 249
   contributor: 911
-  pullRequest: 16386
+  pullRequest: 16387
   issue: 10894
 language:
   Go: 9068333
@@ -86,13 +86,13 @@ recent:
 total:
   release: 249
   mergedPR: 12922
-  openPR: 189
+  openPR: 190
   closedIssue: 9959
   openIssue: 935
   commit: 28298
 ---
 path: /home/runner/.x-repo/github.com/containers/podman
-collectedAt: 2026-09-04T20:12:16Z
+collectedAt: 2026-09-04T20:36:43Z
 loc:
   Go:
     code: 1628430
