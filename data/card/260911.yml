@@ -2,12 +2,12 @@ about:
   description: "Podman: A tool for managing OCI containers and pods."
   license: Apache-2.0
   homepage: https://podman.io
-  head: 6b8f0d7
+  head: be177b2
   archived: false
   latestVersion: "v6.1.1"
   latestRelease: "v6.1.1"
   latestPrerelease: "v6.1.0-rc1"
-  collectedAt: 2026-09-11T05:32:44Z
+  collectedAt: 2026-09-11T19:21:10Z
 timeline:
   created: 2017-11-01
   lastCommit: 2026-09-11
@@ -19,12 +19,12 @@ popularity:
   watcher: 221
   fork: 3371
   release: 249
-  contributor: 912
-  pullRequest: 16412
-  issue: 10899
+  contributor: 914
+  pullRequest: 16415
+  issue: 10901
 language:
-  Go: 9097161
-  Shell: 1547285
+  Go: 9103734
+  Shell: 1550296
   Perl: 216684
   Python: 152422
   PowerShell: 67731
@@ -35,7 +35,7 @@ language:
   Awk: 570
   HTML: 404
   Batchfile: 222
-totalBytes: 11196798
+totalBytes: 11206382
 recent:
   last30d:
     since: 2026-08-12
@@ -87,20 +87,20 @@ recent:
     commit: 0
 total:
   release: 249
-  mergedPR: 12940
+  mergedPR: 12943
   openPR: 184
-  closedIssue: 9992
-  openIssue: 907
-  commit: 28352
+  closedIssue: 9998
+  openIssue: 903
+  commit: 28358
 ---
 path: /home/runner/.x-repo/github.com/containers/podman
-collectedAt: 2026-09-11T05:33:15Z
+collectedAt: 2026-09-11T19:21:45Z
 loc:
   Go:
-    code: 1642728
-    comments: 294262
-    blanks: 201437
-    files: 7322
+    code: 1642896
+    comments: 294282
+    blanks: 201456
+    files: 7324
   C:
     code: 179381
     comments: 77677
@@ -258,7 +258,7 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 60541
+    comments: 60542
     blanks: 19377
     files: 896
   Text:
@@ -267,10 +267,10 @@ loc:
     blanks: 205
     files: 31
 total:
-  code: 1944544
-  comments: 461731
-  blanks: 253135
-  files: 8900
+  code: 1944712
+  comments: 461752
+  blanks: 253154
+  files: 8902
 ---
 date: "2026-09-07"
 repo:
