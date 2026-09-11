@@ -14,11 +14,11 @@ x install podman
 
 ## Code insight
 
-Total: **1,940,163** lines of code across **7633** files in the top 5 languages.
+Total: **1,940,331** lines of code across **7635** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 1,642,728 | 294,262 | 201,437 | 7322 |
+| Go | 1,642,896 | 294,282 | 201,456 | 7324 |
 | C | 179,381 | 77,677 | 16,153 | 16 |
 | AssemblyGAS | 64,122 | 2,804 | 5,648 | 159 |
 | Yaml | 14,606 | 106 | 345 | 44 |
@@ -48,11 +48,11 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 32,841 · **Forks**: 3,371 · **Open issues**: 10,899 · **Contributors**: 912
+- **Stars**: 32,841 · **Forks**: 3,371 · **Open issues**: 10,901 · **Contributors**: 914
 
 ## Totals (cumulative)
 
-- **Releases**: 249 · **Merged PRs**: 12940 · **Open PRs**: 184 · **Closed issues**: 9992 · **Open issues**: 907 · **Commits**: 28352
+- **Releases**: 249 · **Merged PRs**: 12943 · **Open PRs**: 184 · **Closed issues**: 9998 · **Open issues**: 903 · **Commits**: 28358
 
 ## Recent activity
 
@@ -107,4 +107,4 @@ Install metadata for podman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T05:33:28Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T19:22:01Z._
