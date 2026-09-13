@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 32,845 · **Forks**: 3,371 · **Open issues**: 10,904 · **Contributors**: 914
+- **Stars**: 32,846 · **Forks**: 3,371 · **Open issues**: 10,904 · **Contributors**: 914
 
 ## Totals (cumulative)
 
-- **Releases**: 249 · **Merged PRs**: 12944 · **Open PRs**: 183 · **Closed issues**: 10001 · **Open issues**: 903 · **Commits**: 28358
+- **Releases**: 249 · **Merged PRs**: 12944 · **Open PRs**: 184 · **Closed issues**: 10001 · **Open issues**: 903 · **Commits**: 28358
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-14 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-14 | 9 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-16 | 12 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-17 | 20 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-22 | 44 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-14 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-15 | 5 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-15 | 9 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-17 | 12 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-18 | 20 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-23 | 44 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **465** distros on [repology.org](https://repology.org/project/podman). **39** are ✅ on the latest upstream release, **276** are ⚠️ on an older version.
+Reported by **466** distros on [repology.org](https://repology.org/project/podman). **40** are ✅ on the latest upstream release, **276** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,7 +91,7 @@ Reported by **465** distros on [repology.org](https://repology.org/project/podma
 | Ubuntu 26.04 LTS | `5.7.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.9.3` | ⚠️ outdated |
 | Arch | `6.1.1` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `6.1.1` | ✅ latest |
 | Fedora rawhide | `6.1.1` | ✅ latest |
 | Nix unstable | `5.8.6` | ⚠️ outdated |
 | Void | `5.8.3` | ⚠️ outdated |
@@ -107,4 +107,4 @@ Install metadata for podman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T05:23:00Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T05:43:30Z._
