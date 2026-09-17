@@ -14,11 +14,11 @@ x install podman
 
 ## Code insight
 
-Total: **1,940,837** lines of code across **7636** files in the top 5 languages.
+Total: **1,941,535** lines of code across **7639** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 1,643,162 | 294,343 | 201,516 | 7325 |
+| Go | 1,643,860 | 294,615 | 201,625 | 7328 |
 | C | 179,381 | 77,677 | 16,153 | 16 |
 | AssemblyGAS | 64,122 | 2,804 | 5,648 | 159 |
 | Yaml | 14,606 | 106 | 345 | 44 |
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v6.1.2` (2026-09-16)
+- **Latest**: `v5.8.7` (2026-09-16)
 - **Last commit**: 2026-09-16
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 32,878 · **Forks**: 3,375 · **Open issues**: 10,909 · **Contributors**: 917
+- **Stars**: 32,879 · **Forks**: 3,376 · **Open issues**: 10,910 · **Contributors**: 918
 
 ## Totals (cumulative)
 
-- **Releases**: 250 · **Merged PRs**: 12954 · **Open PRs**: 170 · **Closed issues**: 10021 · **Open issues**: 888 · **Commits**: 28377
+- **Releases**: 251 · **Merged PRs**: 12961 · **Open PRs**: 157 · **Closed issues**: 10027 · **Open issues**: 883 · **Commits**: 28383
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-18 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-18 | 10 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-20 | 13 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-21 | 21 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-26 | 44 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-18 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-19 | 7 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-19 | 11 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-21 | 14 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-22 | 22 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-27 | 45 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for podman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T05:56:24Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T06:03:00Z._
