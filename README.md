@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 32,938 · **Forks**: 3,391 · **Open issues**: 10,927 · **Contributors**: 932
+- **Stars**: 32,947 · **Forks**: 3,391 · **Open issues**: 10,927 · **Contributors**: 932
 
 ## Totals (cumulative)
 
-- **Releases**: 251 · **Merged PRs**: 12995 · **Open PRs**: 147 · **Closed issues**: 10052 · **Open issues**: 875 · **Commits**: 28461
+- **Releases**: 251 · **Merged PRs**: 12995 · **Open PRs**: 149 · **Closed issues**: 10052 · **Open issues**: 875 · **Commits**: 28461
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-28 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-28 | 9 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-30 | 14 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-01 | 21 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-06 | 45 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-28 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-29 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-29 | 9 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-31 | 14 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-02 | 21 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-07 | 45 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for podman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T05:44:34Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T05:56:23Z._
