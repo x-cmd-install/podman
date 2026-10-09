@@ -18,7 +18,7 @@ Total: **1,950,813** lines of code across **7678** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 1,649,448 | 296,028 | 202,426 | 7358 |
+| Go | 1,649,450 | 296,029 | 202,426 | 7358 |
 | C | 179,395 | 77,677 | 16,154 | 16 |
 | AssemblyGAS | 67,662 | 3,117 | 6,008 | 168 |
 | Yaml | 14,635 | 106 | 345 | 44 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 33,010 · **Forks**: 3,401 · **Open issues**: 10,945 · **Contributors**: 945
+- **Stars**: 33,018 · **Forks**: 3,404 · **Open issues**: 10,946 · **Contributors**: 945
 
 ## Totals (cumulative)
 
-- **Releases**: 253 · **Merged PRs**: 13043 · **Open PRs**: 146 · **Closed issues**: 10079 · **Open issues**: 866 · **Commits**: 28559
+- **Releases**: 253 · **Merged PRs**: 13045 · **Open PRs**: 153 · **Closed issues**: 10081 · **Open issues**: 865 · **Commits**: 28563
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 4 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-09 | 7 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-10 | 9 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-11 | 16 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-13 | 23 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-18 | 46 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-09 | 4 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-10 | 7 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-11 | 9 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-12 | 16 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-14 | 23 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-19 | 46 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for podman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T06:44:01Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T06:44:52Z._
