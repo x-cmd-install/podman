@@ -14,13 +14,13 @@ x install podman
 
 ## Code insight
 
-Total: **1,975,229** lines of code across **7779** files in the top 5 languages.
+Total: **1,978,430** lines of code across **7787** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 1,659,525 | 298,764 | 204,467 | 7451 |
+| Go | 1,661,766 | 299,258 | 204,829 | 7454 |
 | C | 179,395 | 77,677 | 16,154 | 16 |
-| AssemblyGAS | 82,002 | 3,205 | 6,157 | 176 |
+| AssemblyGAS | 82,962 | 3,291 | 6,286 | 181 |
 | Yaml | 14,635 | 106 | 345 | 44 |
 | Autoconf | 7,575 | 1,078 | 3,681 | 92 |
 
@@ -42,42 +42,42 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v5.8.8` (2026-09-29)
-- **Last commit**: 2026-10-10
+- **Latest**: `v5.8.9` (2026-10-12)
+- **Last commit**: 2026-10-12
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 33,028 · **Forks**: 3,403 · **Open issues**: 10,949 · **Contributors**: 945
+- **Stars**: 33,033 · **Forks**: 3,407 · **Open issues**: 10,951 · **Contributors**: 945
 
 ## Totals (cumulative)
 
-- **Releases**: 253 · **Merged PRs**: 13054 · **Open PRs**: 153 · **Closed issues**: 10084 · **Open issues**: 865 · **Commits**: 28580
+- **Releases**: 255 · **Merged PRs**: 13066 · **Open PRs**: 148 · **Closed issues**: 10085 · **Open issues**: 866 · **Commits**: 28600
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 4 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-13 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-14 | 9 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-15 | 15 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-17 | 23 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-22 | 46 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-13 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-14 | 7 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-15 | 11 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-16 | 17 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-18 | 25 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-23 | 47 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [podman-installer-macos-arm64.pkg](https://github.com/containers/podman/releases/download/v6.1.3/podman-installer-macos-arm64.pkg) | 72.9 MiB | `native/darwin/arm64` |
-| [podman-installer-windows-amd64.msi](https://github.com/containers/podman/releases/download/v6.1.3/podman-installer-windows-amd64.msi) | 27.5 MiB | `native/win/x64` |
-| [podman-installer-windows-arm64.msi](https://github.com/containers/podman/releases/download/v6.1.3/podman-installer-windows-arm64.msi) | 25.3 MiB | `native/win/arm64` |
-| [podman-remote-release-darwin_arm64.zip](https://github.com/containers/podman/releases/download/v6.1.3/podman-remote-release-darwin_arm64.zip) | 25.3 MiB | `native/darwin/arm64` |
-| [podman-remote-release-windows_amd64.zip](https://github.com/containers/podman/releases/download/v6.1.3/podman-remote-release-windows_amd64.zip) | 30.9 MiB | `native/win/x64` |
-| [podman-remote-release-windows_arm64.zip](https://github.com/containers/podman/releases/download/v6.1.3/podman-remote-release-windows_arm64.zip) | 28.1 MiB | `native/win/arm64` |
-| [podman-remote-static-linux_amd64.tar.gz](https://github.com/containers/podman/releases/download/v6.1.3/podman-remote-static-linux_amd64.tar.gz) | 23.4 MiB | `native/linux/x64` |
-| [podman-remote-static-linux_arm64.tar.gz](https://github.com/containers/podman/releases/download/v6.1.3/podman-remote-static-linux_arm64.tar.gz) | 21.4 MiB | `native/linux/arm64` |
-| [shasums](https://github.com/containers/podman/releases/download/v6.1.3/shasums) | 830 B | `other` |
+| [podman-installer-macos-arm64.pkg](https://github.com/containers/podman/releases/download/v6.1.4/podman-installer-macos-arm64.pkg) | 72.6 MiB | `native/darwin/arm64` |
+| [podman-installer-windows-amd64.msi](https://github.com/containers/podman/releases/download/v6.1.4/podman-installer-windows-amd64.msi) | 27.2 MiB | `native/win/x64` |
+| [podman-installer-windows-arm64.msi](https://github.com/containers/podman/releases/download/v6.1.4/podman-installer-windows-arm64.msi) | 25.1 MiB | `native/win/arm64` |
+| [podman-remote-release-darwin_arm64.zip](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-release-darwin_arm64.zip) | 24.3 MiB | `native/darwin/arm64` |
+| [podman-remote-release-windows_amd64.zip](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-release-windows_amd64.zip) | 30.6 MiB | `native/win/x64` |
+| [podman-remote-release-windows_arm64.zip](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-release-windows_arm64.zip) | 27.9 MiB | `native/win/arm64` |
+| [podman-remote-static-linux_amd64.tar.gz](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-static-linux_amd64.tar.gz) | 22.5 MiB | `native/linux/x64` |
+| [podman-remote-static-linux_arm64.tar.gz](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-static-linux_arm64.tar.gz) | 20.6 MiB | `native/linux/arm64` |
+| [shasums](https://github.com/containers/podman/releases/download/v6.1.4/shasums) | 830 B | `other` |
 
 ## Improve this data
 
@@ -88,4 +88,4 @@ Install metadata for podman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T06:40:29Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T07:39:28Z._
