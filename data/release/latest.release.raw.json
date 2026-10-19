@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 76099040,
       "digest": "sha256:48f675622f66233ca2116e67fdab41ed9dbcc25b48b78a8e6ef0be6549031d22",
-      "download_count": 3236,
+      "download_count": 3705,
       "created_at": "2026-10-12T20:59:42Z",
       "updated_at": "2026-10-12T20:59:46Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.4/podman-installer-macos-arm64.pkg"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 28520448,
       "digest": "sha256:4a05240054cb990629cbe098db090c5c7848c44162c11910cabb45ca75a40d53",
-      "download_count": 12346,
+      "download_count": 13267,
       "created_at": "2026-10-12T20:59:42Z",
       "updated_at": "2026-10-12T20:59:44Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.4/podman-installer-windows-amd64.msi"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 26292224,
       "digest": "sha256:a1b65ffa7dd60a5eceedd3df7fc5d1d005b8d21018ff9deaa15aeacfbc92cd6c",
-      "download_count": 1531,
+      "download_count": 1721,
       "created_at": "2026-10-12T20:59:42Z",
       "updated_at": "2026-10-12T20:59:44Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.4/podman-installer-windows-arm64.msi"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 25498436,
       "digest": "sha256:dadcb94999dcb7f19f8269e292fc56d2bfbe2bfab5826981a568a466bff26843",
-      "download_count": 190,
+      "download_count": 216,
       "created_at": "2026-10-12T20:59:42Z",
       "updated_at": "2026-10-12T20:59:44Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.4/podman-remote-release-darwin_arm64.zip"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 32122424,
       "digest": "sha256:8b70cd2511bfac9b65e58858d8fe54eeb68e3420eeb600e3f869b9a4b8576572",
-      "download_count": 820,
+      "download_count": 891,
       "created_at": "2026-10-12T20:59:42Z",
       "updated_at": "2026-10-12T20:59:44Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.4/podman-remote-release-windows_amd64.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 29296023,
       "digest": "sha256:7987844d58b8d0320de94260d5b3cb414ef7f92db93986f6819f7e36fac125d6",
-      "download_count": 85,
+      "download_count": 96,
       "created_at": "2026-10-12T20:59:44Z",
       "updated_at": "2026-10-12T20:59:46Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.4/podman-remote-release-windows_arm64.zip"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 23549865,
       "digest": "sha256:af1f85c22214088a0a9986b9c82b4c9b5b74eda8ecaa6c8cca82b1a63f339b4a",
-      "download_count": 680,
+      "download_count": 790,
       "created_at": "2026-10-12T20:59:44Z",
       "updated_at": "2026-10-12T20:59:45Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.4/podman-remote-static-linux_amd64.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 21593081,
       "digest": "sha256:1d7c2a3241b56effa68c724359fb30e603a802699b2b7b20fe2fae5ff6819601",
-      "download_count": 102,
+      "download_count": 133,
       "created_at": "2026-10-12T20:59:44Z",
       "updated_at": "2026-10-12T20:59:45Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.4/podman-remote-static-linux_arm64.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 830,
       "digest": "sha256:2e2137f14806c5efb43fcd63ff8ed53747a499e83793fe07993d972eb6db9b79",
-      "download_count": 3716,
+      "download_count": 4204,
       "created_at": "2026-10-12T20:59:44Z",
       "updated_at": "2026-10-12T20:59:45Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.1.4/shasums"
@@ -366,8 +366,8 @@
   "body": "### Bugfixes\n- Fixed an issue where Podman would not function when run under WSL 3 ([#29749](https://github.com/podman-container-tools/podman/issues/29749)).\n\n### Misc\n- Updated gvproxy to v0.9.0, resolving CVE-2026-107935\n- Updated Buildah to v1.45.2\n- Updated Storage to v1.64.2\n\n",
   "reactions": {
     "url": "https://api.github.com/repos/podman-container-tools/podman/releases/410992137/reactions",
-    "total_count": 22,
-    "+1": 8,
+    "total_count": 23,
+    "+1": 9,
     "-1": 0,
     "laugh": 0,
     "hooray": 6,
