@@ -14,11 +14,11 @@ x install podman
 
 ## Code insight
 
-Total: **1,989,120** lines of code across **7906** files in the top 5 languages.
+Total: **1,989,506** lines of code across **7907** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 1,671,317 | 304,526 | 207,363 | 7572 |
+| Go | 1,671,653 | 304,572 | 207,400 | 7573 |
 | C | 179,402 | 77,677 | 16,155 | 16 |
 | AssemblyGAS | 83,987 | 3,297 | 6,381 | 182 |
 | Yaml | 14,635 | 106 | 345 | 44 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 33,130 · **Forks**: 3,422 · **Open issues**: 10,976 · **Contributors**: 949
+- **Stars**: 33,137 · **Forks**: 3,426 · **Open issues**: 10,977 · **Contributors**: 950
 
 ## Totals (cumulative)
 
-- **Releases**: 256 · **Merged PRs**: 13119 · **Open PRs**: 127 · **Closed issues**: 10109 · **Open issues**: 867 · **Commits**: 28708
+- **Releases**: 256 · **Merged PRs**: 13123 · **Open PRs**: 134 · **Closed issues**: 10111 · **Open issues**: 866 · **Commits**: 28716
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 5 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-28 | 8 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-29 | 11 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-30 | 18 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-01 | 25 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-06 | 46 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-28 | 5 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-29 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-30 | 11 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-01 | 18 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-02 | 25 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-07 | 45 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **462** distros on [repology.org](https://repology.org/project/podman). **45** are ✅ on the latest upstream release, **271** are ⚠️ on an older version.
+Reported by **463** distros on [repology.org](https://repology.org/project/podman). **45** are ✅ on the latest upstream release, **272** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -107,4 +107,4 @@ Install metadata for podman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:43:19Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T06:26:58Z._
