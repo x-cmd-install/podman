@@ -14,15 +14,15 @@ x install podman
 
 ## Code insight
 
-Total: **1,989,506** lines of code across **7907** files in the top 5 languages.
+Total: **1,989,734** lines of code across **7908** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 1,671,653 | 304,572 | 207,400 | 7573 |
+| Go | 1,671,864 | 304,738 | 207,446 | 7574 |
 | C | 179,402 | 77,677 | 16,155 | 16 |
 | AssemblyGAS | 83,987 | 3,297 | 6,381 | 182 |
 | Yaml | 14,635 | 106 | 345 | 44 |
-| Autoconf | 7,574 | 1,078 | 3,682 | 92 |
+| Autoconf | 7,591 | 1,078 | 3,685 | 92 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v6.2.0-rc1` (2026-10-12)
-- **Last commit**: 2026-10-27
+- **Last commit**: 2026-10-28
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 33,137 · **Forks**: 3,426 · **Open issues**: 10,977 · **Contributors**: 950
+- **Stars**: 33,143 · **Forks**: 3,428 · **Open issues**: 10,979 · **Contributors**: 950
 
 ## Totals (cumulative)
 
-- **Releases**: 256 · **Merged PRs**: 13123 · **Open PRs**: 134 · **Closed issues**: 10111 · **Open issues**: 866 · **Commits**: 28716
+- **Releases**: 256 · **Merged PRs**: 13132 · **Open PRs**: 126 · **Closed issues**: 10114 · **Open issues**: 865 · **Commits**: 28738
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 5 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-29 | 8 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-30 | 11 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-01 | 18 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-02 | 25 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-07 | 45 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-29 | 5 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-30 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-31 | 11 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-02 | 18 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-03 | 25 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-08 | 45 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **463** distros on [repology.org](https://repology.org/project/podman). **45** are ✅ on the latest upstream release, **272** are ⚠️ on an older version.
+Reported by **463** distros on [repology.org](https://repology.org/project/podman). **46** are ✅ on the latest upstream release, **271** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,9 +91,9 @@ Reported by **463** distros on [repology.org](https://repology.org/project/podma
 | Ubuntu 26.04 LTS | `5.7.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.9.3` | ⚠️ outdated |
 | Arch | `6.1.4` | ✅ latest |
-| Homebrew | `6.1.4` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `6.1.4` | ✅ latest |
-| Nix unstable | `5.8.9` | ⚠️ outdated |
+| Nix unstable | `6.1.4` | ✅ latest |
 | Void | `6.1.4` | ✅ latest |
 | Alpine edge | `6.1.4` | ✅ latest |
 | openSUSE Tumbleweed | `6.1.2` | ⚠️ outdated |
@@ -107,4 +107,4 @@ Install metadata for podman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T06:26:58Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T06:43:22Z._
