@@ -7,17 +7,24 @@
   summary: A tool for managing OCI containers and pods
   licenses:
     - Apache-2.0
-- repo: arch
-  subrepo: extra
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: podman
-  binname: podman
+  binnames:
+    - podman
+    - podman-docker
+    - podman-remote
   visiblename: podman
-  version: 6.1.4
-  origversion: 6.1.4-1
-  status: newest
-  summary: A tool for managing OCI containers and pods.
-  licenses:
-    - Apache-2.0
+  version: 5.8.6
+  origversion: 5.8.6+ds1-3
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
+    - onlyjob@debian.org
+    - paravoid@debian.org
+    - siretart@tauware.de
+  categories:
+    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: podman
@@ -187,6 +194,18 @@
     - omni+alpine@hack.org
   licenses:
     - Apache-2.0
+- repo: aosc
+  srcname: app-containers/podman
+  binname: podman
+  visiblename: podman
+  version: 6.1.0+vsock0.8.9
+  origversion: null
+  status: outdated
+  summary: Tool for managing OCI containers and pods
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - admin
 - repo: alpine_edge
   subrepo: community
   srcname: podman
@@ -344,18 +363,6 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
   categories:
     - System/Configuration/Other
-- repo: aosc
-  srcname: app-containers/podman
-  binname: podman
-  visiblename: podman
-  version: 6.1.0+vsock0.8.9
-  origversion: null
-  status: outdated
-  summary: Tool for managing OCI containers and pods
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - admin
 - repo: arch
   subrepo: extra
   srcname: podman
@@ -365,6 +372,17 @@
   origversion: 6.1.4-1
   status: newest
   summary: Emulate Docker CLI using podman
+  licenses:
+    - Apache-2.0
+- repo: arch
+  subrepo: extra
+  srcname: podman
+  binname: podman
+  visiblename: podman
+  version: 6.1.4
+  origversion: 6.1.4-1
+  status: newest
+  summary: A tool for managing OCI containers and pods.
   licenses:
     - Apache-2.0
 - repo: aur
@@ -435,6 +453,17 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
   categories:
     - Unspecified
+- repo: chimera
+  subrepo: main
+  srcname: podman
+  binname: podman-fishcomp
+  visiblename: podman-fishcomp
+  version: 6.1.4
+  origversion: 6.1.4-r0
+  status: newest
+  summary: Container and image management tool (fish completions)
+  licenses:
+    - Apache-2.0
 - repo: centos_stream_9
   subrepo: AppStream
   srcname: podman
@@ -457,6 +486,17 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
   categories:
     - Unspecified
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: podman
+  binname: podman-docker
+  visiblename: podman-docker
+  version: 6.1.3
+  origversion: 6.1.3-1
+  status: outdated
+  summary: Emulate Docker CLI using podman
+  licenses:
+    - Apache-2.0
 - repo: centos_stream_9
   subrepo: BaseOS
   srcname: podman
@@ -653,17 +693,6 @@
 - repo: chimera
   subrepo: main
   srcname: podman
-  binname: podman-fishcomp
-  visiblename: podman-fishcomp
-  version: 6.1.4
-  origversion: 6.1.4-r0
-  status: newest
-  summary: Container and image management tool (fish completions)
-  licenses:
-    - Apache-2.0
-- repo: chimera
-  subrepo: main
-  srcname: podman
   binname: podman-man
   visiblename: podman-man
   version: 6.1.4
@@ -711,6 +740,17 @@
     - siretart@tauware.de
   categories:
     - misc
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: podman
+  binname: podman-docker
+  visiblename: podman-docker
+  version: 6.1.4
+  origversion: 6.1.4-1
+  status: newest
+  summary: Emulate Docker CLI using podman
+  licenses:
+    - Apache-2.0
 - repo: debian_unstable
   subrepo: sid/main
   srcname: podman
@@ -747,24 +787,6 @@
     - siretart@tauware.de
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: podman
-  binnames:
-    - podman
-    - podman-docker
-    - podman-remote
-  visiblename: podman
-  version: 5.8.6
-  origversion: 5.8.6+ds1-3
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - onlyjob@debian.org
-    - paravoid@debian.org
-    - siretart@tauware.de
-  categories:
-    - misc
 - repo: exherbo
   subrepo: virtualization
   srcname: app-virtualization/podman
@@ -777,6 +799,17 @@
     - fallback-mnt-exherbo@repology
   categories:
     - app-virtualization
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: podman
+  binname: podman
+  visiblename: podman
+  version: 6.1.4
+  origversion: 6.1.4-1
+  status: newest
+  summary: A tool for managing OCI containers and pods.
+  licenses:
+    - Apache-2.0
 - repo: fedora_43
   subrepo: updates
   srcname: podman
@@ -826,9 +859,9 @@
     - podmansh
     - podman-machine
   visiblename: podman
-  version: 6.1.4
-  origversion: 5:6.1.4-1.fc46
-  status: newest
+  version: 6.2.0~rc1
+  origversion: 5:6.2.0~rc1-1.fc46
+  status: untrusted
   summary: Manage Pods, Containers and Container Images
   licenses:
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
@@ -949,6 +982,16 @@
     - siretart@tauware.de
   categories:
     - misc
+- repo: msys2_clang64
+  srcname: mingw-w64-podman
+  binname: mingw-w64-clang-x86_64-podman
+  visiblename: mingw-w64-clang-x86_64-podman
+  version: 6.1.4
+  origversion: 6.1.4-1
+  status: newest
+  summary: Tool for running OCI-based containers in pods (mingw-w64)
+  licenses:
+    - spdx:Apache-2.0
 - repo: liguros_stable
   srcname: app-containers/podman
   visiblename: app-containers/podman
@@ -1082,49 +1125,6 @@
   summary: A tool for managing OCI containers and pods.
   licenses:
     - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: podman
-  binname: podman-docker
-  visiblename: podman-docker
-  version: 6.1.3
-  origversion: 6.1.3-1
-  status: outdated
-  summary: Emulate Docker CLI using podman
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: podman
-  binname: podman-docker
-  visiblename: podman-docker
-  version: 6.1.4
-  origversion: 6.1.4-1
-  status: newest
-  summary: Emulate Docker CLI using podman
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: podman
-  binname: podman
-  visiblename: podman
-  version: 6.1.4
-  origversion: 6.1.4-1
-  status: newest
-  summary: A tool for managing OCI containers and pods.
-  licenses:
-    - Apache-2.0
-- repo: msys2_clang64
-  srcname: mingw-w64-podman
-  binname: mingw-w64-clang-x86_64-podman
-  visiblename: mingw-w64-clang-x86_64-podman
-  version: 6.1.4
-  origversion: 6.1.4-1
-  status: newest
-  summary: Tool for running OCI-based containers in pods (mingw-w64)
-  licenses:
-    - spdx:Apache-2.0
 - repo: msys2_clangarm64
   srcname: mingw-w64-podman
   binname: mingw-w64-clang-aarch64-podman
@@ -1207,23 +1207,23 @@
 - repo: parabola
   subrepo: extra
   srcname: podman
-  binname: podman-docker
-  visiblename: podman-docker
-  version: 6.1.4
-  origversion: 6.1.4-1
-  status: newest
-  summary: Emulate Docker CLI using podman
-  licenses:
-    - Apache-2.0
-- repo: parabola
-  subrepo: extra
-  srcname: podman
   binname: podman
   visiblename: podman
   version: 6.1.4
   origversion: 6.1.4-1
   status: newest
   summary: A tool for managing OCI containers and pods.
+  licenses:
+    - Apache-2.0
+- repo: parabola
+  subrepo: extra
+  srcname: podman
+  binname: podman-docker
+  visiblename: podman-docker
+  version: 6.1.4
+  origversion: 6.1.4-1
+  status: newest
+  summary: Emulate Docker CLI using podman
   licenses:
     - Apache-2.0
 - repo: pld
@@ -1366,8 +1366,34 @@
   subrepo: appstream
   srcname: podman
   visiblename: podman
-  version: 4.4.1
-  origversion: 3:4.4.1-14.module+el8.8.0+19108+ffbdcd02
+  version: 1.6.4
+  origversion: 1.6.4-26.module+el8.5.0+10223+f7559c42
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 1.6.4
+  origversion: 1.6.4-28.module+el8.5.0+14796+e4386a39
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 2.2.1
+  origversion: 2.2.1-7.module+el8.3.1+9857+68fb1526
   status: legacy
   summary: Manage Pods, Containers and Container Images
   licenses:
@@ -1379,8 +1405,99 @@
   subrepo: appstream
   srcname: podman
   visiblename: podman
-  version: 4.4.1
-  origversion: 3:4.4.1-15.module+el8.8.0+19698+00f3cb66
+  version: 3.0.1
+  origversion: 3.0.1-15.module+el8.7.0+18021+1e286cc8
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 3.0.1
+  origversion: 3.0.1-6.module+el8.4.0+11310+8c67a752
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 3.0.1
+  origversion: 3.0.1-6.module+el8.5.0+12609+beaa716d
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 3.0.1
+  origversion: 3.0.1-7.module+el8.4.0+11311+9da8acfb
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 3.0.1
+  origversion: 3.0.1-7.module+el8.4.0+12906+0cce23da
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 3.0.1
+  origversion: 3.0.1-7.module+el8.5.0+12960+5b7d72b5
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 3.0.1
+  origversion: 3.0.1-8.module+el8.5.0+14784+8c48f0fc
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 3.0.1
+  origversion: 3.0.1-8.module+el8.6.0+14694+4f5132e0
   status: legacy
   summary: Manage Pods, Containers and Container Images
   licenses:
@@ -1401,36 +1518,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: podman
-  visiblename: podman
-  version: 4.9.4
-  origversion: 4:4.9.4-23.module_el8.10.0+4068+0e21408f
-  status: outdated
-  summary: Manage Pods, Containers and Container Images
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: podman
-  visiblename: podman
-  version: 4.9.4
-  origversion: 4:4.9.4-25.module_el8.10.0+4082+f7f0c95e
-  status: outdated
-  summary: Manage Pods, Containers and Container Images
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: eurolinux_8
   subrepo: appstream
   srcname: podman
@@ -1444,12 +1531,25 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 3.3.1
+  origversion: 3.3.1-9.module+el8.5.0+12697+018f24d7
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
   srcname: podman
   visiblename: podman
   version: 4.9.4
-  origversion: 4:4.9.4-25.module_el8.10.0+4089+ce72bbbe
+  origversion: 4:4.9.4-13.module_el8.10.0+3898+7a25cb1a
   status: outdated
   summary: Manage Pods, Containers and Container Images
   maintainers:
@@ -1469,6 +1569,36 @@
   summary: Manage Pods, Containers and Container Images
   licenses:
     - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: podman
+  visiblename: podman
+  version: 4.9.4
+  origversion: 4:4.9.4-1.module_el8.10.0+3845+87b84552
+  status: outdated
+  summary: Manage Pods, Containers and Container Images
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: podman
+  visiblename: podman
+  version: 4.9.4
+  origversion: 4:4.9.4-12.module_el8.10.0+3876+e55593a8
+  status: outdated
+  summary: Manage Pods, Containers and Container Images
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
   categories:
     - Unspecified
   vulnerable: true
@@ -1612,51 +1742,6 @@
   srcname: podman
   visiblename: podman
   version: 4.9.4
-  origversion: 4:4.9.4-1.module_el8.10.0+3845+87b84552
-  status: outdated
-  summary: Manage Pods, Containers and Container Images
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: podman
-  visiblename: podman
-  version: 4.9.4
-  origversion: 4:4.9.4-12.module_el8.10.0+3876+e55593a8
-  status: outdated
-  summary: Manage Pods, Containers and Container Images
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: podman
-  visiblename: podman
-  version: 4.9.4
-  origversion: 4:4.9.4-13.module_el8.10.0+3898+7a25cb1a
-  status: outdated
-  summary: Manage Pods, Containers and Container Images
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: podman
-  visiblename: podman
-  version: 4.9.4
   origversion: 4:4.9.4-13.module_el8.10.0+3901+4b80ecd7
   status: outdated
   summary: Manage Pods, Containers and Container Images
@@ -1763,6 +1848,51 @@
   visiblename: podman
   version: 4.9.4
   origversion: 4:4.9.4-23.module_el8.10.0+4047+545787c4
+  status: outdated
+  summary: Manage Pods, Containers and Container Images
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: podman
+  visiblename: podman
+  version: 4.9.4
+  origversion: 4:4.9.4-23.module_el8.10.0+4068+0e21408f
+  status: outdated
+  summary: Manage Pods, Containers and Container Images
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: podman
+  visiblename: podman
+  version: 4.9.4
+  origversion: 4:4.9.4-25.module_el8.10.0+4082+f7f0c95e
+  status: outdated
+  summary: Manage Pods, Containers and Container Images
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: podman
+  visiblename: podman
+  version: 4.9.4
+  origversion: 4:4.9.4-25.module_el8.10.0+4089+ce72bbbe
   status: outdated
   summary: Manage Pods, Containers and Container Images
   maintainers:
@@ -2093,6 +2223,20 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: alpine_3_19
+  subrepo: community
+  srcname: podman
+  binname: podman
+  visiblename: podman
+  version: 4.8.3
+  origversion: 4.8.3-r3
+  status: outdated
+  summary: Simple management tool for pods, containers and images
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
 - repo: almalinux_9
   subrepo: AppStream
   srcname: podman
@@ -2288,32 +2432,6 @@
   licenses:
     - Apache-2.0
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 3.3.1
-  origversion: 3.3.1-9.module+el8.5.0+12697+018f24d7
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 3.4.2
-  origversion: 1:3.4.2-9.module+el8.5.0+13852+150547f7
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: alpine_3_18
   subrepo: community
   srcname: podman
@@ -2443,20 +2561,6 @@
 - repo: alpine_3_19
   subrepo: community
   srcname: podman
-  binname: podman
-  visiblename: podman
-  version: 4.8.3
-  origversion: 4.8.3-r3
-  status: outdated
-  summary: Simple management tool for pods, containers and images
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: podman
   binname: podman-bash-completion
   visiblename: podman-bash-completion
   version: 4.8.3
@@ -2552,54 +2656,328 @@
   licenses:
     - Apache-2.0
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
+- repo: alpine_3_19
+  subrepo: community
   srcname: podman
+  binname: podman-zsh-completion
+  visiblename: podman-zsh-completion
+  version: 4.8.3
+  origversion: 4.8.3-r3
+  status: outdated
+  summary: Zsh completions for podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: podman
+  binname: podman
   visiblename: podman
+  version: 5.2.5
+  origversion: 5.2.5-r0
+  status: outdated
+  summary: Simple management tool for pods, containers and images
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: podman
+  binname: podman-bash-completion
+  visiblename: podman-bash-completion
+  version: 5.2.5
+  origversion: 5.2.5-r0
+  status: outdated
+  summary: Bash completions for podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: podman
+  binname: podman-doc
+  visiblename: podman-doc
+  version: 5.2.5
+  origversion: 5.2.5-r0
+  status: outdated
+  summary: Simple management tool for pods, containers and images (documentation)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: podman
+  binname: podman-docker
+  visiblename: podman-docker
+  version: 5.2.5
+  origversion: 5.2.5-r0
+  status: outdated
+  summary: Emulate Docker CLI using Podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: podman
+  binname: podman-docker-doc
+  visiblename: podman-docker-doc
+  version: 5.2.5
+  origversion: 5.2.5-r0
+  status: outdated
+  summary: Emulate Docker CLI using Podman (documentation)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: podman
+  binname: podman-fish-completion
+  visiblename: podman-fish-completion
+  version: 5.2.5
+  origversion: 5.2.5-r0
+  status: outdated
+  summary: Fish completions for podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: podman
+  binname: podman-openrc
+  visiblename: podman-openrc
+  version: 5.2.5
+  origversion: 5.2.5-r0
+  status: outdated
+  summary: Simple management tool for pods, containers and images (OpenRC init scripts)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: podman
+  binname: podman-remote
+  visiblename: podman-remote
+  version: 5.2.5
+  origversion: 5.2.5-r0
+  status: outdated
+  summary: Remote CLI for Podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: podman
+  binname: podman-zsh-completion
+  visiblename: podman-zsh-completion
+  version: 5.2.5
+  origversion: 5.2.5-r0
+  status: outdated
+  summary: Zsh completions for podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: deepin_25
+  subrepo: community
+  srcname: libpod
+  binnames:
+    - podman
+    - podman-docker
+  visiblename: libpod
+  version: 4.3.1
+  origversion: 4.3.1+ds1-7
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
+    - onlyjob@debian.org
+    - siretart@tauware.de
+  categories:
+    - admin
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: podman
+  binname: podman
+  visiblename: podman
+  version: 5.3.2
+  origversion: 5.3.2-r5
+  status: outdated
+  summary: Simple management tool for pods, containers and images
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: podman
+  binname: podman-bash-completion
+  visiblename: podman-bash-completion
+  version: 5.3.2
+  origversion: 5.3.2-r5
+  status: outdated
+  summary: Bash completions for podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: podman
+  binname: podman-doc
+  visiblename: podman-doc
+  version: 5.3.2
+  origversion: 5.3.2-r5
+  status: outdated
+  summary: Simple management tool for pods, containers and images (documentation)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: podman
+  binname: podman-docker
+  visiblename: podman-docker
+  version: 5.3.2
+  origversion: 5.3.2-r5
+  status: outdated
+  summary: Emulate Docker CLI using Podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: podman
+  binname: podman-docker-doc
+  visiblename: podman-docker-doc
+  version: 5.3.2
+  origversion: 5.3.2-r5
+  status: outdated
+  summary: Emulate Docker CLI using Podman (documentation)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: podman
+  binname: podman-fish-completion
+  visiblename: podman-fish-completion
+  version: 5.3.2
+  origversion: 5.3.2-r5
+  status: outdated
+  summary: Fish completions for podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: podman
+  binname: podman-openrc
+  visiblename: podman-openrc
+  version: 5.3.2
+  origversion: 5.3.2-r5
+  status: outdated
+  summary: Simple management tool for pods, containers and images (OpenRC init scripts)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: podman
+  binname: podman-remote
+  visiblename: podman-remote
+  version: 5.3.2
+  origversion: 5.3.2-r5
+  status: outdated
+  summary: Remote CLI for Podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: podman
+  binname: podman-zsh-completion
+  visiblename: podman-zsh-completion
+  version: 5.3.2
+  origversion: 5.3.2-r5
+  status: outdated
+  summary: Zsh completions for podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: community
+  srcname: podman
+  binname: podman
+  visiblename: podman
+  version: 5.6.2
+  origversion: 5.6.2-r3
+  status: outdated
+  summary: Simple management tool for pods, containers and images
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: libpod
+  binnames:
+    - podman
+    - golang-github-containers-libpod-dev
+  visiblename: libpod
   version: 3.0.1
-  origversion: 3.0.1-8.module+el8.6.0+14694+4f5132e0
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
+  origversion: 3.0.1+dfsg1-3+deb11u5
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
+    - onlyjob@debian.org
+    - paravoid@debian.org
+    - siretart@tauware.de
   categories:
-    - Unspecified
+    - misc
   vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: podman
-  binname: podman-zsh-completion
-  visiblename: podman-zsh-completion
-  version: 4.8.3
-  origversion: 4.8.3-r3
-  status: outdated
-  summary: Zsh completions for podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: podman
-  binname: podman
-  visiblename: podman
-  version: 5.2.5
-  origversion: 5.2.5-r0
-  status: outdated
-  summary: Simple management tool for pods, containers and images
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_20
+- repo: alpine_3_22
   subrepo: community
   srcname: podman
   binname: podman-bash-completion
   visiblename: podman-bash-completion
-  version: 5.2.5
-  origversion: 5.2.5-r0
+  version: 5.6.2
+  origversion: 5.6.2-r3
   status: outdated
   summary: Bash completions for podman
   maintainers:
@@ -2607,13 +2985,13 @@
   licenses:
     - Apache-2.0
   vulnerable: true
-- repo: alpine_3_20
+- repo: alpine_3_22
   subrepo: community
   srcname: podman
   binname: podman-doc
   visiblename: podman-doc
-  version: 5.2.5
-  origversion: 5.2.5-r0
+  version: 5.6.2
+  origversion: 5.6.2-r3
   status: outdated
   summary: Simple management tool for pods, containers and images (documentation)
   maintainers:
@@ -2621,556 +2999,226 @@
   licenses:
     - Apache-2.0
   vulnerable: true
+- repo: alpine_3_22
+  subrepo: community
+  srcname: podman
+  binname: podman-docker
+  visiblename: podman-docker
+  version: 5.6.2
+  origversion: 5.6.2-r3
+  status: outdated
+  summary: Emulate Docker CLI using Podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: community
+  srcname: podman
+  binname: podman-docker-doc
+  visiblename: podman-docker-doc
+  version: 5.6.2
+  origversion: 5.6.2-r3
+  status: outdated
+  summary: Emulate Docker CLI using Podman (documentation)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: community
+  srcname: podman
+  binname: podman-fish-completion
+  visiblename: podman-fish-completion
+  version: 5.6.2
+  origversion: 5.6.2-r3
+  status: outdated
+  summary: Fish completions for podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: community
+  srcname: podman
+  binname: podman-openrc
+  visiblename: podman-openrc
+  version: 5.6.2
+  origversion: 5.6.2-r3
+  status: outdated
+  summary: Simple management tool for pods, containers and images (OpenRC init scripts)
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: community
+  srcname: podman
+  binname: podman-remote
+  visiblename: podman-remote
+  version: 5.6.2
+  origversion: 5.6.2-r3
+  status: outdated
+  summary: Remote CLI for Podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: community
+  srcname: podman
+  binname: podman-zsh-completion
+  visiblename: podman-zsh-completion
+  version: 5.6.2
+  origversion: 5.6.2-r3
+  status: outdated
+  summary: Zsh completions for podman
+  maintainers:
+    - michal@polanski.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: podman
+  binname: podman
+  visiblename: podman
+  version: 5.7.0
+  origversion: 5.7.0-r6
+  status: outdated
+  summary: Simple management tool for pods, containers and images
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: podman
+  binname: podman-bash-completion
+  visiblename: podman-bash-completion
+  version: 5.7.0
+  origversion: 5.7.0-r6
+  status: outdated
+  summary: Bash completions for podman
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: podman
+  binname: podman-doc
+  visiblename: podman-doc
+  version: 5.7.0
+  origversion: 5.7.0-r6
+  status: outdated
+  summary: Simple management tool for pods, containers and images (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: podman
+  binname: podman-docker
+  visiblename: podman-docker
+  version: 5.7.0
+  origversion: 5.7.0-r6
+  status: outdated
+  summary: Emulate Docker CLI using Podman
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: podman
+  binname: podman-docker-doc
+  visiblename: podman-docker-doc
+  version: 5.7.0
+  origversion: 5.7.0-r6
+  status: outdated
+  summary: Emulate Docker CLI using Podman (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: podman
+  binname: podman-fish-completion
+  visiblename: podman-fish-completion
+  version: 5.7.0
+  origversion: 5.7.0-r6
+  status: outdated
+  summary: Fish completions for podman
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: podman
+  binname: podman-openrc
+  visiblename: podman-openrc
+  version: 5.7.0
+  origversion: 5.7.0-r6
+  status: outdated
+  summary: Simple management tool for pods, containers and images (OpenRC init scripts)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: podman
+  binname: podman-remote
+  visiblename: podman-remote
+  version: 5.7.0
+  origversion: 5.7.0-r6
+  status: outdated
+  summary: Remote CLI for Podman
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: podman
+  binname: podman-zsh-completion
+  visiblename: podman-zsh-completion
+  version: 5.7.0
+  origversion: 5.7.0-r6
+  status: outdated
+  summary: Zsh completions for podman
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
 - repo: eurolinux_8
   subrepo: appstream
   srcname: podman
   visiblename: podman
-  version: 1.6.4
-  origversion: 1.6.4-28.module+el8.5.0+14796+e4386a39
+  version: 1.0.0
+  origversion: 1.0.0-8.git921f98f.module+el8.3.0+10171+12421f43
   status: legacy
   summary: Manage Pods, Containers and Container Images
   licenses:
     - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: podman
-  binname: podman-docker
-  visiblename: podman-docker
-  version: 5.2.5
-  origversion: 5.2.5-r0
-  status: outdated
-  summary: Emulate Docker CLI using Podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: podman
-  binname: podman-docker-doc
-  visiblename: podman-docker-doc
-  version: 5.2.5
-  origversion: 5.2.5-r0
-  status: outdated
-  summary: Emulate Docker CLI using Podman (documentation)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: podman
-  binname: podman-fish-completion
-  visiblename: podman-fish-completion
-  version: 5.2.5
-  origversion: 5.2.5-r0
-  status: outdated
-  summary: Fish completions for podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: podman
-  binname: podman-openrc
-  visiblename: podman-openrc
-  version: 5.2.5
-  origversion: 5.2.5-r0
-  status: outdated
-  summary: Simple management tool for pods, containers and images (OpenRC init scripts)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: podman
-  binname: podman-remote
-  visiblename: podman-remote
-  version: 5.2.5
-  origversion: 5.2.5-r0
-  status: outdated
-  summary: Remote CLI for Podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: podman
-  binname: podman-zsh-completion
-  visiblename: podman-zsh-completion
-  version: 5.2.5
-  origversion: 5.2.5-r0
-  status: outdated
-  summary: Zsh completions for podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: podman
-  binname: podman
-  visiblename: podman
-  version: 5.3.2
-  origversion: 5.3.2-r5
-  status: outdated
-  summary: Simple management tool for pods, containers and images
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: podman
-  binname: podman-bash-completion
-  visiblename: podman-bash-completion
-  version: 5.3.2
-  origversion: 5.3.2-r5
-  status: outdated
-  summary: Bash completions for podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: podman
-  binname: podman-doc
-  visiblename: podman-doc
-  version: 5.3.2
-  origversion: 5.3.2-r5
-  status: outdated
-  summary: Simple management tool for pods, containers and images (documentation)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: podman
-  binname: podman-docker
-  visiblename: podman-docker
-  version: 5.3.2
-  origversion: 5.3.2-r5
-  status: outdated
-  summary: Emulate Docker CLI using Podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 2.2.1
-  origversion: 2.2.1-7.module+el8.3.1+9857+68fb1526
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: podman
-  binname: podman-docker-doc
-  visiblename: podman-docker-doc
-  version: 5.3.2
-  origversion: 5.3.2-r5
-  status: outdated
-  summary: Emulate Docker CLI using Podman (documentation)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: podman
-  binname: podman-fish-completion
-  visiblename: podman-fish-completion
-  version: 5.3.2
-  origversion: 5.3.2-r5
-  status: outdated
-  summary: Fish completions for podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: podman
-  binname: podman-openrc
-  visiblename: podman-openrc
-  version: 5.3.2
-  origversion: 5.3.2-r5
-  status: outdated
-  summary: Simple management tool for pods, containers and images (OpenRC init scripts)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: podman
-  binname: podman-remote
-  visiblename: podman-remote
-  version: 5.3.2
-  origversion: 5.3.2-r5
-  status: outdated
-  summary: Remote CLI for Podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: podman
-  binname: podman-zsh-completion
-  visiblename: podman-zsh-completion
-  version: 5.3.2
-  origversion: 5.3.2-r5
-  status: outdated
-  summary: Zsh completions for podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: podman
-  binname: podman
-  visiblename: podman
-  version: 5.6.2
-  origversion: 5.6.2-r3
-  status: outdated
-  summary: Simple management tool for pods, containers and images
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: podman
-  binname: podman-bash-completion
-  visiblename: podman-bash-completion
-  version: 5.6.2
-  origversion: 5.6.2-r3
-  status: outdated
-  summary: Bash completions for podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: podman
-  binname: podman-doc
-  visiblename: podman-doc
-  version: 5.6.2
-  origversion: 5.6.2-r3
-  status: outdated
-  summary: Simple management tool for pods, containers and images (documentation)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: podman
-  binname: podman-docker
-  visiblename: podman-docker
-  version: 5.6.2
-  origversion: 5.6.2-r3
-  status: outdated
-  summary: Emulate Docker CLI using Podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: podman
-  binname: podman-docker-doc
-  visiblename: podman-docker-doc
-  version: 5.6.2
-  origversion: 5.6.2-r3
-  status: outdated
-  summary: Emulate Docker CLI using Podman (documentation)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 3.0.1
-  origversion: 3.0.1-15.module+el8.7.0+18021+1e286cc8
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: podman
-  binname: podman-fish-completion
-  visiblename: podman-fish-completion
-  version: 5.6.2
-  origversion: 5.6.2-r3
-  status: outdated
-  summary: Fish completions for podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: podman
-  binname: podman-openrc
-  visiblename: podman-openrc
-  version: 5.6.2
-  origversion: 5.6.2-r3
-  status: outdated
-  summary: Simple management tool for pods, containers and images (OpenRC init scripts)
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 4.0.2
-  origversion: 2:4.0.2-8.module+el8.7.0+16520+2db5507d
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: podman
-  binname: podman-remote
-  visiblename: podman-remote
-  version: 5.6.2
-  origversion: 5.6.2-r3
-  status: outdated
-  summary: Remote CLI for Podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: podman
-  binname: podman-zsh-completion
-  visiblename: podman-zsh-completion
-  version: 5.6.2
-  origversion: 5.6.2-r3
-  status: outdated
-  summary: Zsh completions for podman
-  maintainers:
-    - michal@polanski.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: podman
-  binname: podman
-  visiblename: podman
-  version: 5.7.0
-  origversion: 5.7.0-r6
-  status: outdated
-  summary: Simple management tool for pods, containers and images
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: podman
-  binname: podman-bash-completion
-  visiblename: podman-bash-completion
-  version: 5.7.0
-  origversion: 5.7.0-r6
-  status: outdated
-  summary: Bash completions for podman
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: podman
-  binname: podman-doc
-  visiblename: podman-doc
-  version: 5.7.0
-  origversion: 5.7.0-r6
-  status: outdated
-  summary: Simple management tool for pods, containers and images (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: podman
-  binname: podman-docker
-  visiblename: podman-docker
-  version: 5.7.0
-  origversion: 5.7.0-r6
-  status: outdated
-  summary: Emulate Docker CLI using Podman
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: podman
-  binname: podman-docker-doc
-  visiblename: podman-docker-doc
-  version: 5.7.0
-  origversion: 5.7.0-r6
-  status: outdated
-  summary: Emulate Docker CLI using Podman (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: podman
-  binname: podman-fish-completion
-  visiblename: podman-fish-completion
-  version: 5.7.0
-  origversion: 5.7.0-r6
-  status: outdated
-  summary: Fish completions for podman
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 3.0.1
-  origversion: 3.0.1-6.module+el8.4.0+11310+8c67a752
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: podman
-  binname: podman-openrc
-  visiblename: podman-openrc
-  version: 5.7.0
-  origversion: 5.7.0-r6
-  status: outdated
-  summary: Simple management tool for pods, containers and images (OpenRC init scripts)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: podman
-  binname: podman-remote
-  visiblename: podman-remote
-  version: 5.7.0
-  origversion: 5.7.0-r6
-  status: outdated
-  summary: Remote CLI for Podman
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: podman
-  binname: podman-zsh-completion
-  visiblename: podman-zsh-completion
-  version: 5.7.0
-  origversion: 5.7.0-r6
-  status: outdated
-  summary: Zsh completions for podman
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 3.0.1
-  origversion: 3.0.1-6.module+el8.5.0+12609+beaa716d
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 4.0.2
-  origversion: 2:4.0.2-9.module+el8.7.0+18128+0ba3165d
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
   categories:
     - Unspecified
   vulnerable: true
@@ -3253,19 +3301,6 @@
     - onlyjob@debian.org
     - paravoid@debian.org
     - siretart@tauware.de
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 3.0.1
-  origversion: 3.0.1-7.module+el8.4.0+11311+9da8acfb
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: centos_7
   subrepo: extras
@@ -3506,19 +3541,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 4.1.1
-  origversion: 2:4.1.1-2.module+el8.6.0+15917+093ca6f8
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: centos_stream_8
   subrepo: AppStream
   srcname: podman
@@ -3589,19 +3611,6 @@
   summary: Manage Pods, Containers and Container Images
   maintainers:
     - bugs@centos.org
-  licenses:
-    - ASL 2.0 and GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 3.0.1
-  origversion: 3.0.1-7.module+el8.4.0+12906+0cce23da
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
   licenses:
     - ASL 2.0 and GPLv3+
   categories:
@@ -3802,19 +3811,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 3.0.1
-  origversion: 3.0.1-7.module+el8.5.0+12960+5b7d72b5
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: centos_stream_8
   subrepo: AppStream
   srcname: podman
@@ -3890,6 +3886,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 4.6.1
+  origversion: 3:4.6.1-8.module+el8.9.0+21243+a586538b
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: centos_stream_8
   subrepo: AppStream
   srcname: podman
@@ -3950,6 +3959,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 1.6.4
+  origversion: 1.6.4-26.module+el8.3.0+10188+4c10031c
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: centos_stream_8
   subrepo: AppStream
   srcname: podman
@@ -4007,19 +4029,6 @@
     - builder@centos.org
   licenses:
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 3.0.1
-  origversion: 3.0.1-8.module+el8.5.0+14784+8c48f0fc
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0 and GPLv3+
   categories:
     - Unspecified
   vulnerable: true
@@ -4239,23 +4248,6 @@
     - admin
   vulnerable: true
 - repo: deepin_25
-  subrepo: community
-  srcname: libpod
-  binnames:
-    - podman
-    - podman-docker
-  visiblename: libpod
-  version: 4.3.1
-  origversion: 4.3.1+ds1-7
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - onlyjob@debian.org
-    - siretart@tauware.de
-  categories:
-    - admin
-  vulnerable: true
-- repo: deepin_25
   subrepo: main
   srcname: podman
   binnames:
@@ -4271,50 +4263,6 @@
     - onlyjob@debian.org
     - paravoid@debian.org
     - siretart@tauware.de
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: libpod
-  binnames:
-    - podman
-    - golang-github-containers-libpod-dev
-  visiblename: libpod
-  version: 3.0.1
-  origversion: 3.0.1+dfsg1-3+deb11u5
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - onlyjob@debian.org
-    - paravoid@debian.org
-    - siretart@tauware.de
-  categories:
-    - misc
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 1.0.0
-  origversion: 1.0.0-8.git921f98f.module+el8.3.0+10171+12421f43
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: podman
-  visiblename: podman
-  version: 1.6.4
-  origversion: 1.6.4-26.module+el8.3.0+10188+4c10031c
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: eurolinux_8
   subrepo: appstream
@@ -4333,12 +4281,12 @@
   subrepo: appstream
   srcname: podman
   visiblename: podman
-  version: 1.6.4
-  origversion: 1.6.4-26.module+el8.5.0+10223+f7559c42
+  version: 3.4.2
+  origversion: 1:3.4.2-9.module+el8.5.0+13852+150547f7
   status: legacy
   summary: Manage Pods, Containers and Container Images
   licenses:
-    - ASL 2.0
+    - ASL 2.0 and GPLv3+
   categories:
     - Unspecified
   vulnerable: true
@@ -4437,6 +4385,45 @@
   subrepo: appstream
   srcname: podman
   visiblename: podman
+  version: 4.0.2
+  origversion: 2:4.0.2-8.module+el8.7.0+16520+2db5507d
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 4.0.2
+  origversion: 2:4.0.2-9.module+el8.7.0+18128+0ba3165d
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 4.1.1
+  origversion: 2:4.1.1-2.module+el8.6.0+15917+093ca6f8
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
   version: 4.1.1
   origversion: 2:4.1.1-7.module+el8.6.0+16889+9f154fa9
   status: legacy
@@ -4516,7 +4503,7 @@
   srcname: podman
   visiblename: podman
   version: 4.4.1
-  origversion: 3:4.4.1-8.module+el8.8.0+18438+15d3aa65
+  origversion: 3:4.4.1-14.module+el8.8.0+19108+ffbdcd02
   status: legacy
   summary: Manage Pods, Containers and Container Images
   licenses:
@@ -4528,12 +4515,25 @@
   subrepo: appstream
   srcname: podman
   visiblename: podman
-  version: 4.6.1
-  origversion: 3:4.6.1-8.module+el8.9.0+21243+a586538b
+  version: 4.4.1
+  origversion: 3:4.4.1-15.module+el8.8.0+19698+00f3cb66
   status: legacy
   summary: Manage Pods, Containers and Container Images
   licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
+    - ASL 2.0 and GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: podman
+  visiblename: podman
+  version: 4.4.1
+  origversion: 3:4.4.1-8.module+el8.8.0+18438+15d3aa65
+  status: legacy
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - ASL 2.0 and GPLv3+
   categories:
     - Unspecified
   vulnerable: true
@@ -4755,19 +4755,6 @@
     - ASL 2.0 and GPLv3+
   categories:
     - Unspecified
-  vulnerable: true
-- repo: pkgsrc_2026_3
-  srcname: sysutils/podman
-  binname: podman
-  visiblename: sysutils/podman
-  version: 5.0.3
-  origversion: 5.0.3nb24
-  status: outdated
-  summary: Tool for managing OCI containers and pods
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
   vulnerable: true
 - repo: eurolinux_9
   subrepo: appstream
@@ -5139,28 +5126,6 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_39
-  subrepo: release
-  srcname: podman
-  binnames:
-    - podman
-    - podman-docker
-    - podman-tests
-    - podman-remote
-    - podman-plugins
-    - podmansh
-    - podman-debuginfo
-    - podman-debugsource
-  visiblename: podman
-  version: 4.7.0
-  origversion: 5:4.7.0-1.fc39
-  status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_39
   subrepo: updates
   srcname: podman
   binnames:
@@ -5176,6 +5141,28 @@
   version: 4.9.4
   origversion: 5:4.9.4-1.fc39
   status: outdated
+  summary: Manage Pods, Containers and Container Images
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_39
+  subrepo: release
+  srcname: podman
+  binnames:
+    - podman
+    - podman-docker
+    - podman-tests
+    - podman-remote
+    - podman-plugins
+    - podmansh
+    - podman-debuginfo
+    - podman-debugsource
+  visiblename: podman
+  version: 4.7.0
+  origversion: 5:4.7.0-1.fc39
+  status: legacy
   summary: Manage Pods, Containers and Container Images
   licenses:
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
@@ -5225,18 +5212,25 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
+- repo: fedora_41
+  subrepo: updates
   srcname: podman
+  binnames:
+    - podman
+    - podman-docker
+    - podman-tests
+    - podman-remote
+    - podmansh
+    - podman-machine
   visiblename: podman
-  version: 4.9.5
-  origversion: 4.9.5-150500.3.15.1
+  version: 5.6.2
+  origversion: 5:5.6.2-1.fc41
   status: outdated
-  summary: Daemon-less container engine for managing containers, pods and images
+  summary: Manage Pods, Containers and Container Images
   licenses:
-    - Apache-2.0
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
   categories:
-    - System/Management
+    - Unspecified
   vulnerable: true
 - repo: fedora_41
   subrepo: release
@@ -5258,7 +5252,7 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: fedora_41
+- repo: fedora_42
   subrepo: updates
   srcname: podman
   binnames:
@@ -5269,8 +5263,8 @@
     - podmansh
     - podman-machine
   visiblename: podman
-  version: 5.6.2
-  origversion: 5:5.6.2-1.fc41
+  version: 5.8.2
+  origversion: 5:5.8.2-1.fc42
   status: outdated
   summary: Manage Pods, Containers and Container Images
   licenses:
@@ -5292,26 +5286,6 @@
   version: 5.4.1
   origversion: 5:5.4.1-1.fc42
   status: legacy
-  summary: Manage Pods, Containers and Container Images
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_42
-  subrepo: updates
-  srcname: podman
-  binnames:
-    - podman
-    - podman-docker
-    - podman-tests
-    - podman-remote
-    - podmansh
-    - podman-machine
-  visiblename: podman
-  version: 5.8.2
-  origversion: 5:5.8.2-1.fc42
-  status: outdated
   summary: Manage Pods, Containers and Container Images
   licenses:
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0
@@ -5545,19 +5519,6 @@
   categories:
     - System/Configuration
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: podman
-  visiblename: podman
-  version: 4.9.5
-  origversion: 4.9.5-150500.3.18.1
-  status: outdated
-  summary: Daemon-less container engine for managing containers, pods and images
-  licenses:
-    - Apache-2.0
-  categories:
-    - System/Management
-  vulnerable: true
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: podman
@@ -5665,19 +5626,6 @@
     - ASL 2.0
   categories:
     - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: podman
-  visiblename: podman
-  version: 4.9.5
-  origversion: 4.9.5-150500.3.25.1
-  status: outdated
-  summary: Daemon-less container engine for managing containers, pods and images
-  licenses:
-    - Apache-2.0
-  categories:
-    - System/Management
   vulnerable: true
 - repo: openeuler_22_03_lts_sp1
   srcname: podman
@@ -5892,6 +5840,32 @@
   srcname: podman
   visiblename: podman
   version: 4.9.5
+  origversion: 4.9.5-150500.3.15.1
+  status: outdated
+  summary: Daemon-less container engine for managing containers, pods and images
+  licenses:
+    - Apache-2.0
+  categories:
+    - System/Management
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: podman
+  visiblename: podman
+  version: 4.9.5
+  origversion: 4.9.5-150500.3.18.1
+  status: outdated
+  summary: Daemon-less container engine for managing containers, pods and images
+  licenses:
+    - Apache-2.0
+  categories:
+    - System/Management
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: podman
+  visiblename: podman
+  version: 4.9.5
   origversion: 4.9.5-150500.3.25.1
   status: outdated
   summary: Daemon-less container engine for managing containers, pods and images
@@ -5919,6 +5893,19 @@
   visiblename: podman
   version: 4.4.4
   origversion: 4.4.4-150500.1.4
+  status: legacy
+  summary: Daemon-less container engine for managing containers, pods and images
+  licenses:
+    - Apache-2.0
+  categories:
+    - System/Management
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: podman
+  visiblename: podman
+  version: 4.8.3
+  origversion: 4.8.3-150500.3.9.1
   status: legacy
   summary: Daemon-less container engine for managing containers, pods and images
   licenses:
@@ -5958,6 +5945,19 @@
   visiblename: podman
   version: 4.9.5
   origversion: 4.9.5-150500.3.18.1
+  status: outdated
+  summary: Daemon-less container engine for managing containers, pods and images
+  licenses:
+    - Apache-2.0
+  categories:
+    - System/Management
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: podman
+  visiblename: podman
+  version: 4.9.5
+  origversion: 4.9.5-150500.3.25.1
   status: outdated
   summary: Daemon-less container engine for managing containers, pods and images
   licenses:
@@ -6121,19 +6121,6 @@
   categories:
     - System/Management
   vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: podman
-  visiblename: podman
-  version: 4.8.3
-  origversion: 4.8.3-150500.3.9.1
-  status: legacy
-  summary: Daemon-less container engine for managing containers, pods and images
-  licenses:
-    - Apache-2.0
-  categories:
-    - System/Management
-  vulnerable: true
 - repo: openwrt_23_05_x86_64
   subrepo: packages
   srcname: feeds/packages/utils/podman
@@ -6179,25 +6166,6 @@
     - misc
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: podman
-  binnames:
-    - podman
-    - podman-docker
-    - podman-remote
-  visiblename: podman
-  version: 5.4.2
-  origversion: 5.4.2+ds1-2
-  status: outdated
-  maintainers:
-    - pkg-go-maintainers@lists.alioth.debian.org
-    - onlyjob@debian.org
-    - paravoid@debian.org
-    - siretart@tauware.de
-  categories:
-    - admin
-  vulnerable: true
-- repo: parrot
   subrepo: parrot/main
   srcname: podman
   binnames:
@@ -6216,6 +6184,25 @@
   categories:
     - misc
   vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: podman
+  binnames:
+    - podman
+    - podman-docker
+    - podman-remote
+  visiblename: podman
+  version: 5.4.2
+  origversion: 5.4.2+ds1-2
+  status: outdated
+  maintainers:
+    - pkg-go-maintainers@lists.alioth.debian.org
+    - onlyjob@debian.org
+    - paravoid@debian.org
+    - siretart@tauware.de
+  categories:
+    - admin
+  vulnerable: true
 - repo: pclinuxos
   srcname: podman
   visiblename: podman
@@ -6232,6 +6219,19 @@
   visiblename: sysutils/podman
   version: 5.0.3
   origversion: 5.0.3nb19
+  status: outdated
+  summary: Tool for managing OCI containers and pods
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
+  vulnerable: true
+- repo: pkgsrc_2026_3
+  srcname: sysutils/podman
+  binname: podman
+  visiblename: sysutils/podman
+  version: 5.0.3
+  origversion: 5.0.3nb24
   status: outdated
   summary: Tool for managing OCI containers and pods
   maintainers:
@@ -6308,14 +6308,14 @@
   vulnerable: true
 - repo: raspbian_stable
   subrepo: main
-  srcname: libpod
+  srcname: podman
   binnames:
     - podman
     - podman-docker
     - podman-remote
-  visiblename: libpod
-  version: 5.2.2
-  origversion: 5.2.2+ds1-2
+  visiblename: podman
+  version: 5.4.2
+  origversion: 5.4.2+ds1-2
   status: outdated
   maintainers:
     - pkg-go-maintainers@lists.alioth.debian.org
@@ -6327,14 +6327,14 @@
   vulnerable: true
 - repo: raspbian_stable
   subrepo: main
-  srcname: podman
+  srcname: libpod
   binnames:
     - podman
     - podman-docker
     - podman-remote
-  visiblename: podman
-  version: 5.4.2
-  origversion: 5.4.2+ds1-2
+  visiblename: libpod
+  version: 5.2.2
+  origversion: 5.2.2+ds1-2
   status: outdated
   maintainers:
     - pkg-go-maintainers@lists.alioth.debian.org
@@ -7098,7 +7098,7 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble/universe
+  subrepo: noble-updates/universe
   srcname: libpod
   binnames:
     - podman
@@ -7106,7 +7106,7 @@
     - podman-remote
   visiblename: libpod
   version: 4.9.3
-  origversion: 4.9.3+ds1-1build2
+  origversion: 4.9.3+ds1-1ubuntu0.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -7117,7 +7117,7 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
+  subrepo: noble/universe
   srcname: libpod
   binnames:
     - podman
@@ -7125,7 +7125,7 @@
     - podman-remote
   visiblename: libpod
   version: 4.9.3
-  origversion: 4.9.3+ds1-1ubuntu0.2
+  origversion: 4.9.3+ds1-1build2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com

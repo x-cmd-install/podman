@@ -2,29 +2,29 @@ about:
   description: "Podman: A tool for managing OCI containers and pods."
   license: Apache-2.0
   homepage: https://podman.io
-  head: 743963a
+  head: d727bf2
   archived: false
   latestVersion: "v6.2.0-rc1"
   latestRelease: "v5.8.9"
   latestPrerelease: "v6.2.0-rc1"
-  collectedAt: 2026-10-30T06:26:41Z
+  collectedAt: 2026-10-31T06:25:00Z
 timeline:
   created: 2017-11-01
-  lastCommit: 2026-10-29
+  lastCommit: 2026-10-30
   lastVersion: 2026-10-26
   lastRelease: 2026-10-12
   lastPrerelease: 2026-10-26
 popularity:
-  star: 33152
+  star: 33149
   watcher: 218
   fork: 3431
   release: 256
-  contributor: 954
-  pullRequest: 16624
-  issue: 10982
+  contributor: 957
+  pullRequest: 16634
+  issue: 10985
 language:
-  Go: 9366188
-  Shell: 1591007
+  Go: 9372398
+  Shell: 1592187
   Perl: 222090
   Python: 168746
   PowerShell: 67736
@@ -35,10 +35,10 @@ language:
   Awk: 570
   HTML: 404
   Batchfile: 222
-totalBytes: 11531616
+totalBytes: 11539006
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 3
     mergedPR: 0
     openPR: 0
@@ -46,7 +46,7 @@ recent:
     openIssue: 0
     commit: 0
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 8
     mergedPR: 0
     openPR: 0
@@ -54,7 +54,7 @@ recent:
     openIssue: 0
     commit: 0
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 10
     mergedPR: 0
     openPR: 0
@@ -62,7 +62,7 @@ recent:
     openIssue: 0
     commit: 0
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 18
     mergedPR: 0
     openPR: 0
@@ -70,7 +70,7 @@ recent:
     openIssue: 0
     commit: 0
   last360d:
-    since: 2025-11-04
+    since: 2025-11-05
     release: 25
     mergedPR: 0
     openPR: 0
@@ -78,7 +78,7 @@ recent:
     openIssue: 0
     commit: 0
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 45
     mergedPR: 0
     openPR: 0
@@ -87,19 +87,19 @@ recent:
     commit: 0
 total:
   release: 256
-  mergedPR: 13143
-  openPR: 116
-  closedIssue: 10122
-  openIssue: 860
-  commit: 28758
+  mergedPR: 13146
+  openPR: 120
+  closedIssue: 10124
+  openIssue: 861
+  commit: 28765
 ---
 path: /home/runner/.x-repo/github.com/containers/podman
-collectedAt: 2026-10-30T06:27:04Z
+collectedAt: 2026-10-31T06:25:35Z
 loc:
   Go:
-    code: 1672552
-    comments: 304859
-    blanks: 207517
+    code: 1672679
+    comments: 304868
+    blanks: 207538
     files: 7577
   C:
     code: 179402
@@ -117,9 +117,9 @@ loc:
     blanks: 345
     files: 44
   Autoconf:
-    code: 7591
+    code: 7592
     comments: 1078
-    blanks: 3685
+    blanks: 3686
     files: 92
   CHeader:
     code: 6386
@@ -259,7 +259,7 @@ loc:
   Markdown:
     code: 0
     comments: 62826
-    blanks: 19965
+    blanks: 19966
     files: 902
   Text:
     code: 0
@@ -267,9 +267,9 @@ loc:
     blanks: 206
     files: 31
 total:
-  code: 1995048
-  comments: 475401
-  blanks: 260651
+  code: 1995176
+  comments: 475410
+  blanks: 260674
   files: 9190
 ---
 date: "2026-10-26"
@@ -437,4 +437,4 @@ checks:
       - 'Info:   0 out of   1 downloadThenRun dependencies pinned'
       - 'Info:   0 out of   1 goCommand dependencies pinned'
 ---
-{"id":410992137,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOBoFt0c4Yfz4J","tag_name":"v6.1.4","target_commitish":"main","name":"v6.1.4","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-12T17:08:34Z","updated_at":"2026-10-12T20:59:46Z","published_at":"2026-10-12T20:59:46Z","assets":[{"id":634977388,"node_id":"RA_kwDOBoFt0c4l2Pxs","name":"podman-installer-macos-arm64.pkg","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-xar","state":"uploaded","size":76099040,"digest":"sha256:48f675622f66233ca2116e67fdab41ed9dbcc25b48b78a8e6ef0be6549031d22","download_count":10324,"created_at":"2026-10-12T20:59:42Z","updated_at":"2026-10-12T20:59:46Z"},{"id":634977397,"node_id":"RA_kwDOBoFt0c4l2Px1","name":"podman-installer-windows-amd64.msi","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-msi","state":"uploaded","size":28520448,"digest":"sha256:4a05240054cb990629cbe098db090c5c7848c44162c11910cabb45ca75a40d53","download_count":28786,"created_at":"2026-10-12T20:59:42Z","updated_at":"2026-10-12T20:59:44Z"},{"id":634977393,"node_id":"RA_kwDOBoFt0c4l2Pxx","name":"podman-installer-windows-arm64.msi","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-msi","state":"uploaded","size":26292224,"digest":"sha256:a1b65ffa7dd60a5eceedd3df7fc5d1d005b8d21018ff9deaa15aeacfbc92cd6c","download_count":4602,"created_at":"2026-10-12T20:59:42Z","updated_at":"2026-10-12T20:59:44Z"},{"id":634977395,"node_id":"RA_kwDOBoFt0c4l2Pxz","name":"podman-remote-release-darwin_arm64.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":25498436,"digest":"sha256:dadcb94999dcb7f19f8269e292fc56d2bfbe2bfab5826981a568a466bff26843","download_count":564,"created_at":"2026-10-12T20:59:42Z","updated_at":"2026-10-12T20:59:44Z"},{"id":634977390,"node_id":"RA_kwDOBoFt0c4l2Pxu","name":"podman-remote-release-windows_amd64.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":32122424,"digest":"sha256:8b70cd2511bfac9b65e58858d8fe54eeb68e3420eeb600e3f869b9a4b8576572","download_count":2234,"created_at":"2026-10-12T20:59:42Z","updated_at":"2026-10-12T20:59:44Z"},{"id":634977463,"node_id":"RA_kwDOBoFt0c4l2Py3","name":"podman-remote-release-windows_arm64.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":29296023,"digest":"sha256:7987844d58b8d0320de94260d5b3cb414ef7f92db93986f6819f7e36fac125d6","download_count":221,"created_at":"2026-10-12T20:59:44Z","updated_at":"2026-10-12T20:59:46Z"},{"id":634977464,"node_id":"RA_kwDOBoFt0c4l2Py4","name":"podman-remote-static-linux_amd64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":23549865,"digest":"sha256:af1f85c22214088a0a9986b9c82b4c9b5b74eda8ecaa6c8cca82b1a63f339b4a","download_count":2600,"created_at":"2026-10-12T20:59:44Z","updated_at":"2026-10-12T20:59:45Z"},{"id":634977468,"node_id":"RA_kwDOBoFt0c4l2Py8","name":"podman-remote-static-linux_arm64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":21593081,"digest":"sha256:1d7c2a3241b56effa68c724359fb30e603a802699b2b7b20fe2fae5ff6819601","download_count":436,"created_at":"2026-10-12T20:59:44Z","updated_at":"2026-10-12T20:59:45Z"},{"id":634977474,"node_id":"RA_kwDOBoFt0c4l2PzC","name":"shasums","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":830,"digest":"sha256:2e2137f14806c5efb43fcd63ff8ed53747a499e83793fe07993d972eb6db9b79","download_count":11110,"created_at":"2026-10-12T20:59:44Z","updated_at":"2026-10-12T20:59:45Z"}],"body":"### Bugfixes\n- Fixed an issue where Podman would not function when run under WSL 3 ([#29749](https://github.com/podman-container-tools/podman/issues/29749)).\n\n### Misc\n- Updated gvproxy to v0.9.0, resolving CVE-2026-107935\n- Updated Buildah to v1.45.2\n- Updated Storage to v1.64.2\n\n","reactions":{"total_count":27,"+1":11,"-1":0,"laugh":0,"hooray":8,"confused":0,"heart":4,"rocket":3,"eyes":1}}
+{"id":410992137,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOBoFt0c4Yfz4J","tag_name":"v6.1.4","target_commitish":"main","name":"v6.1.4","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-12T17:08:34Z","updated_at":"2026-10-12T20:59:46Z","published_at":"2026-10-12T20:59:46Z","assets":[{"id":634977388,"node_id":"RA_kwDOBoFt0c4l2Pxs","name":"podman-installer-macos-arm64.pkg","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-xar","state":"uploaded","size":76099040,"digest":"sha256:48f675622f66233ca2116e67fdab41ed9dbcc25b48b78a8e6ef0be6549031d22","download_count":10764,"created_at":"2026-10-12T20:59:42Z","updated_at":"2026-10-12T20:59:46Z"},{"id":634977397,"node_id":"RA_kwDOBoFt0c4l2Px1","name":"podman-installer-windows-amd64.msi","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-msi","state":"uploaded","size":28520448,"digest":"sha256:4a05240054cb990629cbe098db090c5c7848c44162c11910cabb45ca75a40d53","download_count":29903,"created_at":"2026-10-12T20:59:42Z","updated_at":"2026-10-12T20:59:44Z"},{"id":634977393,"node_id":"RA_kwDOBoFt0c4l2Pxx","name":"podman-installer-windows-arm64.msi","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-msi","state":"uploaded","size":26292224,"digest":"sha256:a1b65ffa7dd60a5eceedd3df7fc5d1d005b8d21018ff9deaa15aeacfbc92cd6c","download_count":4704,"created_at":"2026-10-12T20:59:42Z","updated_at":"2026-10-12T20:59:44Z"},{"id":634977395,"node_id":"RA_kwDOBoFt0c4l2Pxz","name":"podman-remote-release-darwin_arm64.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":25498436,"digest":"sha256:dadcb94999dcb7f19f8269e292fc56d2bfbe2bfab5826981a568a466bff26843","download_count":600,"created_at":"2026-10-12T20:59:42Z","updated_at":"2026-10-12T20:59:44Z"},{"id":634977390,"node_id":"RA_kwDOBoFt0c4l2Pxu","name":"podman-remote-release-windows_amd64.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":32122424,"digest":"sha256:8b70cd2511bfac9b65e58858d8fe54eeb68e3420eeb600e3f869b9a4b8576572","download_count":2326,"created_at":"2026-10-12T20:59:42Z","updated_at":"2026-10-12T20:59:44Z"},{"id":634977463,"node_id":"RA_kwDOBoFt0c4l2Py3","name":"podman-remote-release-windows_arm64.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/zip","state":"uploaded","size":29296023,"digest":"sha256:7987844d58b8d0320de94260d5b3cb414ef7f92db93986f6819f7e36fac125d6","download_count":228,"created_at":"2026-10-12T20:59:44Z","updated_at":"2026-10-12T20:59:46Z"},{"id":634977464,"node_id":"RA_kwDOBoFt0c4l2Py4","name":"podman-remote-static-linux_amd64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":23549865,"digest":"sha256:af1f85c22214088a0a9986b9c82b4c9b5b74eda8ecaa6c8cca82b1a63f339b4a","download_count":2763,"created_at":"2026-10-12T20:59:44Z","updated_at":"2026-10-12T20:59:45Z"},{"id":634977468,"node_id":"RA_kwDOBoFt0c4l2Py8","name":"podman-remote-static-linux_arm64.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":21593081,"digest":"sha256:1d7c2a3241b56effa68c724359fb30e603a802699b2b7b20fe2fae5ff6819601","download_count":455,"created_at":"2026-10-12T20:59:44Z","updated_at":"2026-10-12T20:59:45Z"},{"id":634977474,"node_id":"RA_kwDOBoFt0c4l2PzC","name":"shasums","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":830,"digest":"sha256:2e2137f14806c5efb43fcd63ff8ed53747a499e83793fe07993d972eb6db9b79","download_count":11390,"created_at":"2026-10-12T20:59:44Z","updated_at":"2026-10-12T20:59:45Z"}],"body":"### Bugfixes\n- Fixed an issue where Podman would not function when run under WSL 3 ([#29749](https://github.com/podman-container-tools/podman/issues/29749)).\n\n### Misc\n- Updated gvproxy to v0.9.0, resolving CVE-2026-107935\n- Updated Buildah to v1.45.2\n- Updated Storage to v1.64.2\n\n","reactions":{"total_count":27,"+1":11,"-1":0,"laugh":0,"hooray":8,"confused":0,"heart":4,"rocket":3,"eyes":1}}
