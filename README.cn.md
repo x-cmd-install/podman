@@ -14,19 +14,19 @@ x install podman
 
 ## 代码洞察
 
-合计: **2,011,031** 行代码（覆盖前 5 种语言、共 **7958** 个文件）。
+合计: **2,010,948** 行代码（覆盖前 5 种语言、共 **7958** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 1,692,127 | 310,233 | 209,589 | 7623 |
+| Go | 1,692,137 | 310,234 | 209,591 | 7623 |
 | C | 180,383 | 78,302 | 16,031 | 16 |
 | AssemblyGAS | 83,884 | 3,296 | 6,371 | 183 |
 | Yaml | 14,643 | 106 | 345 | 44 |
-| Autoconf | 7,649 | 1,085 | 3,704 | 92 |
+| Autoconf | 7,576 | 1,026 | 3,630 | 92 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **7.8 / 10**
+总评分: **7.7 / 10**
 
 评分最低的几项:
 
@@ -42,46 +42,46 @@ x install podman
 
 ## 发布
 
-- **最新版本**: `v6.2.0-rc1` (2026-10-12)
-- **最近提交**: 2026-11-09
+- **最新版本**: `v6.2.0` (2026-11-10)
+- **最近提交**: 2026-11-11
 - **Release 含资产**: 9 个
 
 ## 流行度
 
-- **Star**: 33,215 · **Fork**: 3,442 · **开放 issue**: 11,014 · **贡献者**: 964
+- **Star**: 33,236 · **Fork**: 3,456 · **开放 issue**: 11,048 · **贡献者**: 967
 
 ## 累计统计
 
-- **发布数**: 256 · **已合并 PR**: 13193 · **开放 PR**: 116 · **已关闭 issue**: 10148 · **开放 issue**: 866 · **提交数**: 28868
+- **发布数**: 258 · **已合并 PR**: 13205 · **开放 PR**: 128 · **已关闭 issue**: 10156 · **开放 issue**: 892 · **提交数**: 28886
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-11 | 7 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-12 | 10 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-14 | 18 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-15 | 23 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-20 | 44 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-12 | 5 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-12 | 9 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-13 | 11 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-15 | 20 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-16 | 25 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-21 | 46 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [podman-installer-macos-arm64.pkg](https://github.com/containers/podman/releases/download/v6.1.4/podman-installer-macos-arm64.pkg) | 72.6 MiB | `native/darwin/arm64` |
-| [podman-installer-windows-amd64.msi](https://github.com/containers/podman/releases/download/v6.1.4/podman-installer-windows-amd64.msi) | 27.2 MiB | `native/win/x64` |
-| [podman-installer-windows-arm64.msi](https://github.com/containers/podman/releases/download/v6.1.4/podman-installer-windows-arm64.msi) | 25.1 MiB | `native/win/arm64` |
-| [podman-remote-release-darwin_arm64.zip](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-release-darwin_arm64.zip) | 24.3 MiB | `native/darwin/arm64` |
-| [podman-remote-release-windows_amd64.zip](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-release-windows_amd64.zip) | 30.6 MiB | `native/win/x64` |
-| [podman-remote-release-windows_arm64.zip](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-release-windows_arm64.zip) | 27.9 MiB | `native/win/arm64` |
-| [podman-remote-static-linux_amd64.tar.gz](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-static-linux_amd64.tar.gz) | 22.5 MiB | `native/linux/x64` |
-| [podman-remote-static-linux_arm64.tar.gz](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-static-linux_arm64.tar.gz) | 20.6 MiB | `native/linux/arm64` |
-| [shasums](https://github.com/containers/podman/releases/download/v6.1.4/shasums) | 830 B | `other` |
+| [podman-installer-macos-arm64.pkg](https://github.com/containers/podman/releases/download/v6.2.0/podman-installer-macos-arm64.pkg) | 73.2 MiB | `native/darwin/arm64` |
+| [podman-installer-windows-amd64.msi](https://github.com/containers/podman/releases/download/v6.2.0/podman-installer-windows-amd64.msi) | 27.8 MiB | `native/win/x64` |
+| [podman-installer-windows-arm64.msi](https://github.com/containers/podman/releases/download/v6.2.0/podman-installer-windows-arm64.msi) | 25.6 MiB | `native/win/arm64` |
+| [podman-remote-release-darwin_arm64.zip](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-release-darwin_arm64.zip) | 24.9 MiB | `native/darwin/arm64` |
+| [podman-remote-release-windows_amd64.zip](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-release-windows_amd64.zip) | 31.2 MiB | `native/win/x64` |
+| [podman-remote-release-windows_arm64.zip](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-release-windows_arm64.zip) | 28.5 MiB | `native/win/arm64` |
+| [podman-remote-static-linux_amd64.tar.gz](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-static-linux_amd64.tar.gz) | 23.1 MiB | `native/linux/x64` |
+| [podman-remote-static-linux_arm64.tar.gz](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-static-linux_arm64.tar.gz) | 21.2 MiB | `native/linux/arm64` |
+| [shasums](https://github.com/containers/podman/releases/download/v6.2.0/shasums) | 830 B | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/podman) 上共有 **461** 个发行版报告此项目。**48** 个 ✅ 已是最新上游版本，**271** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/podman) 上共有 **461** 个发行版报告此项目。**9** 个 ✅ 已是最新上游版本，**311** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -90,13 +90,13 @@ x install podman
 | Debian 13 | `5.4.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.7.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.9.3` | ⚠️ outdated |
-| Arch | `6.1.4` | ✅ latest |
-| Homebrew | `6.1.4` | ✅ latest |
-| Fedora rawhide | `6.2.0~rc1` | untrusted |
-| Nix unstable | `6.1.4` | ✅ latest |
-| Void | `6.1.4` | ✅ latest |
-| Alpine edge | `6.1.4` | ✅ latest |
-| openSUSE Tumbleweed | `6.1.4` | ✅ latest |
+| Arch | `6.2.0` | ✅ latest |
+| Homebrew | `6.2.0` | ✅ latest |
+| Fedora rawhide | `6.2.0~rc1` | ⚠️ outdated |
+| Nix unstable | `6.1.4` | ⚠️ outdated |
+| Void | `6.1.4` | ⚠️ outdated |
+| Alpine edge | `6.1.4` | ⚠️ outdated |
+| openSUSE Tumbleweed | `6.1.4` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -107,4 +107,4 @@ podman 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261110.yml` · 2026-11-10T08:05:21Z._
+_数据快照: `data/card/261111.yml` · 2026-11-11T07:30:57Z._

@@ -14,19 +14,19 @@ x install podman
 
 ## Code insight
 
-Total: **2,011,031** lines of code across **7958** files in the top 5 languages.
+Total: **2,010,948** lines of code across **7958** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 1,692,127 | 310,233 | 209,589 | 7623 |
+| Go | 1,692,137 | 310,234 | 209,591 | 7623 |
 | C | 180,383 | 78,302 | 16,031 | 16 |
 | AssemblyGAS | 83,884 | 3,296 | 6,371 | 183 |
 | Yaml | 14,643 | 106 | 345 | 44 |
-| Autoconf | 7,649 | 1,085 | 3,704 | 92 |
+| Autoconf | 7,576 | 1,026 | 3,630 | 92 |
 
 ## OpenSSF Scorecard
 
-Overall score: **7.8 / 10**
+Overall score: **7.7 / 10**
 
 Lowest-scoring checks:
 
@@ -42,46 +42,46 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v6.2.0-rc1` (2026-10-12)
-- **Last commit**: 2026-11-09
+- **Latest**: `v6.2.0` (2026-11-10)
+- **Last commit**: 2026-11-11
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 33,215 · **Forks**: 3,442 · **Open issues**: 11,014 · **Contributors**: 964
+- **Stars**: 33,236 · **Forks**: 3,456 · **Open issues**: 11,048 · **Contributors**: 967
 
 ## Totals (cumulative)
 
-- **Releases**: 256 · **Merged PRs**: 13193 · **Open PRs**: 116 · **Closed issues**: 10148 · **Open issues**: 866 · **Commits**: 28868
+- **Releases**: 258 · **Merged PRs**: 13205 · **Open PRs**: 128 · **Closed issues**: 10156 · **Open issues**: 892 · **Commits**: 28886
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-11 | 7 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-12 | 10 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-14 | 18 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-15 | 23 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-20 | 44 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-12 | 5 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-12 | 9 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-13 | 11 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-15 | 20 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-16 | 25 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-21 | 46 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [podman-installer-macos-arm64.pkg](https://github.com/containers/podman/releases/download/v6.1.4/podman-installer-macos-arm64.pkg) | 72.6 MiB | `native/darwin/arm64` |
-| [podman-installer-windows-amd64.msi](https://github.com/containers/podman/releases/download/v6.1.4/podman-installer-windows-amd64.msi) | 27.2 MiB | `native/win/x64` |
-| [podman-installer-windows-arm64.msi](https://github.com/containers/podman/releases/download/v6.1.4/podman-installer-windows-arm64.msi) | 25.1 MiB | `native/win/arm64` |
-| [podman-remote-release-darwin_arm64.zip](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-release-darwin_arm64.zip) | 24.3 MiB | `native/darwin/arm64` |
-| [podman-remote-release-windows_amd64.zip](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-release-windows_amd64.zip) | 30.6 MiB | `native/win/x64` |
-| [podman-remote-release-windows_arm64.zip](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-release-windows_arm64.zip) | 27.9 MiB | `native/win/arm64` |
-| [podman-remote-static-linux_amd64.tar.gz](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-static-linux_amd64.tar.gz) | 22.5 MiB | `native/linux/x64` |
-| [podman-remote-static-linux_arm64.tar.gz](https://github.com/containers/podman/releases/download/v6.1.4/podman-remote-static-linux_arm64.tar.gz) | 20.6 MiB | `native/linux/arm64` |
-| [shasums](https://github.com/containers/podman/releases/download/v6.1.4/shasums) | 830 B | `other` |
+| [podman-installer-macos-arm64.pkg](https://github.com/containers/podman/releases/download/v6.2.0/podman-installer-macos-arm64.pkg) | 73.2 MiB | `native/darwin/arm64` |
+| [podman-installer-windows-amd64.msi](https://github.com/containers/podman/releases/download/v6.2.0/podman-installer-windows-amd64.msi) | 27.8 MiB | `native/win/x64` |
+| [podman-installer-windows-arm64.msi](https://github.com/containers/podman/releases/download/v6.2.0/podman-installer-windows-arm64.msi) | 25.6 MiB | `native/win/arm64` |
+| [podman-remote-release-darwin_arm64.zip](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-release-darwin_arm64.zip) | 24.9 MiB | `native/darwin/arm64` |
+| [podman-remote-release-windows_amd64.zip](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-release-windows_amd64.zip) | 31.2 MiB | `native/win/x64` |
+| [podman-remote-release-windows_arm64.zip](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-release-windows_arm64.zip) | 28.5 MiB | `native/win/arm64` |
+| [podman-remote-static-linux_amd64.tar.gz](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-static-linux_amd64.tar.gz) | 23.1 MiB | `native/linux/x64` |
+| [podman-remote-static-linux_arm64.tar.gz](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-static-linux_arm64.tar.gz) | 21.2 MiB | `native/linux/arm64` |
+| [shasums](https://github.com/containers/podman/releases/download/v6.2.0/shasums) | 830 B | `other` |
 
 ## Distribution status
 
-Reported by **461** distros on [repology.org](https://repology.org/project/podman). **48** are ✅ on the latest upstream release, **271** are ⚠️ on an older version.
+Reported by **461** distros on [repology.org](https://repology.org/project/podman). **9** are ✅ on the latest upstream release, **311** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,13 +90,13 @@ Reported by **461** distros on [repology.org](https://repology.org/project/podma
 | Debian 13 | `5.4.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.7.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.9.3` | ⚠️ outdated |
-| Arch | `6.1.4` | ✅ latest |
-| Homebrew | `6.1.4` | ✅ latest |
-| Fedora rawhide | `6.2.0~rc1` | untrusted |
-| Nix unstable | `6.1.4` | ✅ latest |
-| Void | `6.1.4` | ✅ latest |
-| Alpine edge | `6.1.4` | ✅ latest |
-| openSUSE Tumbleweed | `6.1.4` | ✅ latest |
+| Arch | `6.2.0` | ✅ latest |
+| Homebrew | `6.2.0` | ✅ latest |
+| Fedora rawhide | `6.2.0~rc1` | ⚠️ outdated |
+| Nix unstable | `6.1.4` | ⚠️ outdated |
+| Void | `6.1.4` | ⚠️ outdated |
+| Alpine edge | `6.1.4` | ⚠️ outdated |
+| openSUSE Tumbleweed | `6.1.4` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -107,4 +107,4 @@ Install metadata for podman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:05:20Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:30:56Z._
