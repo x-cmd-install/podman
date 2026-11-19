@@ -14,19 +14,19 @@ x install podman
 
 ## Code insight
 
-Total: **2,026,714** lines of code across **7980** files in the top 5 languages.
+Total: **2,027,188** lines of code across **7982** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 1,693,028 | 310,821 | 209,804 | 7643 |
+| Go | 1,693,501 | 310,880 | 209,868 | 7645 |
 | C | 180,383 | 78,302 | 16,031 | 16 |
 | AssemblyGAS | 83,902 | 3,310 | 6,412 | 184 |
 | Yaml | 29,471 | 138 | 582 | 45 |
-| Autoconf | 7,576 | 1,026 | 3,630 | 92 |
+| Autoconf | 7,577 | 1,026 | 3,630 | 92 |
 
 ## OpenSSF Scorecard
 
-Overall score: **7.7 / 10**
+Overall score: **7.8 / 10**
 
 Lowest-scoring checks:
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v6.2.0` (2026-11-10)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-19
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 33,308 · **Forks**: 3,463 · **Open issues**: 11,067 · **Contributors**: 973
+- **Stars**: 33,326 · **Forks**: 3,472 · **Open issues**: 11,075 · **Contributors**: 976
 
 ## Totals (cumulative)
 
-- **Releases**: 258 · **Merged PRs**: 13234 · **Open PRs**: 132 · **Closed issues**: 10176 · **Open issues**: 891 · **Commits**: 28936
+- **Releases**: 258 · **Merged PRs**: 13248 · **Open PRs**: 134 · **Closed issues**: 10188 · **Open issues**: 887 · **Commits**: 28965
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-18 | 7 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-19 | 10 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-21 | 20 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-22 | 25 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-27 | 45 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-20 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-20 | 7 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-21 | 10 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-23 | 20 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-24 | 25 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-29 | 45 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -79,6 +79,25 @@ Lowest-scoring checks:
 | [podman-remote-static-linux_arm64.tar.gz](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-static-linux_arm64.tar.gz) | 21.2 MiB | `native/linux/arm64` |
 | [shasums](https://github.com/containers/podman/releases/download/v6.2.0/shasums) | 830 B | `other` |
 
+## Distribution status
+
+Reported by **452** distros on [repology.org](https://repology.org/project/podman). **25** are ✅ on the latest upstream release, **285** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `5.8.6` | ⚠️ outdated |
+| Debian 14 | `5.8.6` | ⚠️ outdated |
+| Debian 13 | `5.4.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `5.7.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.9.3` | ⚠️ outdated |
+| Arch | `6.2.0` | ✅ latest |
+| Homebrew | `6.2.0` | ✅ latest |
+| Fedora rawhide | `6.2.0~rc1` | ⚠️ outdated |
+| Nix unstable | `6.1.4` | ⚠️ outdated |
+| Void | `6.1.4` | ⚠️ outdated |
+| Alpine edge | `6.1.4` | ⚠️ outdated |
+| openSUSE Tumbleweed | `6.1.4` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for podman lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `podman` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -88,4 +107,4 @@ Install metadata for podman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:32:37Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T09:56:00Z._

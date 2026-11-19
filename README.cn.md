@@ -14,19 +14,19 @@ x install podman
 
 ## 代码洞察
 
-合计: **2,026,714** 行代码（覆盖前 5 种语言、共 **7980** 个文件）。
+合计: **2,027,188** 行代码（覆盖前 5 种语言、共 **7982** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 1,693,028 | 310,821 | 209,804 | 7643 |
+| Go | 1,693,501 | 310,880 | 209,868 | 7645 |
 | C | 180,383 | 78,302 | 16,031 | 16 |
 | AssemblyGAS | 83,902 | 3,310 | 6,412 | 184 |
 | Yaml | 29,471 | 138 | 582 | 45 |
-| Autoconf | 7,576 | 1,026 | 3,630 | 92 |
+| Autoconf | 7,577 | 1,026 | 3,630 | 92 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **7.7 / 10**
+总评分: **7.8 / 10**
 
 评分最低的几项:
 
@@ -43,27 +43,27 @@ x install podman
 ## 发布
 
 - **最新版本**: `v6.2.0` (2026-11-10)
-- **最近提交**: 2026-11-16
+- **最近提交**: 2026-11-19
 - **Release 含资产**: 9 个
 
 ## 流行度
 
-- **Star**: 33,308 · **Fork**: 3,463 · **开放 issue**: 11,067 · **贡献者**: 973
+- **Star**: 33,326 · **Fork**: 3,472 · **开放 issue**: 11,075 · **贡献者**: 976
 
 ## 累计统计
 
-- **发布数**: 258 · **已合并 PR**: 13234 · **开放 PR**: 132 · **已关闭 issue**: 10176 · **开放 issue**: 891 · **提交数**: 28936
+- **发布数**: 258 · **已合并 PR**: 13248 · **开放 PR**: 134 · **已关闭 issue**: 10188 · **开放 issue**: 887 · **提交数**: 28965
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 3 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-18 | 7 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-19 | 10 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-21 | 20 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-22 | 25 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-27 | 45 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-20 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-20 | 7 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-21 | 10 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-23 | 20 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-24 | 25 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-29 | 45 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
@@ -79,6 +79,25 @@ x install podman
 | [podman-remote-static-linux_arm64.tar.gz](https://github.com/containers/podman/releases/download/v6.2.0/podman-remote-static-linux_arm64.tar.gz) | 21.2 MiB | `native/linux/arm64` |
 | [shasums](https://github.com/containers/podman/releases/download/v6.2.0/shasums) | 830 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/podman) 上共有 **452** 个发行版报告此项目。**25** 个 ✅ 已是最新上游版本，**285** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `5.8.6` | ⚠️ outdated |
+| Debian 14 | `5.8.6` | ⚠️ outdated |
+| Debian 13 | `5.4.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `5.7.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.9.3` | ⚠️ outdated |
+| Arch | `6.2.0` | ✅ latest |
+| Homebrew | `6.2.0` | ✅ latest |
+| Fedora rawhide | `6.2.0~rc1` | ⚠️ outdated |
+| Nix unstable | `6.1.4` | ⚠️ outdated |
+| Void | `6.1.4` | ⚠️ outdated |
+| Alpine edge | `6.1.4` | ⚠️ outdated |
+| openSUSE Tumbleweed | `6.1.4` | ⚠️ outdated |
+
 ## 改进这些数据
 
 podman 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `podman` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -88,4 +107,4 @@ podman 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T10:32:38Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T09:56:02Z._
