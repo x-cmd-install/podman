@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 76730966,
       "digest": "sha256:bb8983a683ba4ef09c5fc468dc25ac9e68e50caa614a7620a95fbd37d7fb7408",
-      "download_count": 1963,
+      "download_count": 2375,
       "created_at": "2026-11-24T16:59:42Z",
       "updated_at": "2026-11-24T17:00:06Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.1/podman-installer-macos-arm64.pkg"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 29081600,
       "digest": "sha256:f53a29fccb6ff1ae999c293c20f340bdc13f7dfb1e6359fe7e67e7d2da5fa23c",
-      "download_count": 8911,
+      "download_count": 10233,
       "created_at": "2026-11-24T16:59:42Z",
       "updated_at": "2026-11-24T16:59:53Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.1/podman-installer-windows-amd64.msi"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 26820608,
       "digest": "sha256:e9f0d7825ec739bb1f4ded24d85ae456be941a204fd9325810a6eaace37fa7da",
-      "download_count": 712,
+      "download_count": 830,
       "created_at": "2026-11-24T16:59:42Z",
       "updated_at": "2026-11-24T16:59:53Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.1/podman-installer-windows-arm64.msi"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 26140129,
       "digest": "sha256:c53ea525e5e902dd02bd0382299b6742c0ebc1955f38853e64a16290da9127ba",
-      "download_count": 165,
+      "download_count": 205,
       "created_at": "2026-11-24T16:59:42Z",
       "updated_at": "2026-11-24T16:59:53Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.1/podman-remote-release-darwin_arm64.zip"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 32765491,
       "digest": "sha256:a42468966997bade4e161b8a5aac96f757f4f88e5d5aa8a4ccaa4e3c089bd55d",
-      "download_count": 520,
+      "download_count": 622,
       "created_at": "2026-11-24T16:59:42Z",
       "updated_at": "2026-11-24T16:59:55Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.1/podman-remote-release-windows_amd64.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 29875401,
       "digest": "sha256:56fc19da947fbc62deaaf55ff09acb8607c017ee068f2cee879122a5d02bd15d",
-      "download_count": 58,
+      "download_count": 65,
       "created_at": "2026-11-24T16:59:55Z",
       "updated_at": "2026-11-24T17:00:03Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.1/podman-remote-release-windows_arm64.zip"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 24238911,
       "digest": "sha256:e2cb9cf9e3aa486cda4dea18036ee3c99af7a80a8145d49a16e6ea9c59bd4d2a",
-      "download_count": 312,
+      "download_count": 425,
       "created_at": "2026-11-24T16:59:55Z",
       "updated_at": "2026-11-24T16:59:59Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.1/podman-remote-static-linux_amd64.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 22222052,
       "digest": "sha256:297c693a58d49fc3e42756b0105ba5dbf302b7d102fc162ef29090bd675491c6",
-      "download_count": 54,
+      "download_count": 64,
       "created_at": "2026-11-24T16:59:56Z",
       "updated_at": "2026-11-24T16:59:59Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.1/podman-remote-static-linux_arm64.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 830,
       "digest": "sha256:910bc05d93a567e149bb1c737a0584778a04b385955ae43e353d751e809f6c40",
-      "download_count": 1507,
+      "download_count": 1956,
       "created_at": "2026-11-24T16:59:56Z",
       "updated_at": "2026-11-24T16:59:56Z",
       "browser_download_url": "https://github.com/podman-container-tools/podman/releases/download/v6.2.1/shasums"
@@ -366,14 +366,14 @@
   "body": "### Bugfixes\n- Fixed a bug where ConfigMaps and Secrets mounted as executable were not being able to be executed immediately on pod launch when using `podman kube play`.\n- Fixed a bug where the Docker compatible image inspect responses returning an empty author for images with an author set.\n- Fixed a bug where the podman service did not use the correct server configured temporary directory for remote image builds ([#20839](https://github.com/podman-container-tools/podman/issues/20839)).\n- Fixed a bug where `--userns=nomap` sets the wrong supplementary group ([#30261](https://github.com/podman-container-tools/podman/issues/30261)).\n- Fixed a bug where the Docker compatible network inspect and list endpoints are failing when a network has no gateway.\n- Fixed a bug where `podman pod clone` would fail when it has no infra container ([#30340](https://github.com/podman-container-tools/podman/issues/30340)).\n- Fixed a bug where `podman-remote manifest push --compression-level` had no effect.\n- Fixed a bug where read-only containers using secrets could fail to start ([#30301](https://github.com/podman-container-tools/podman/issues/30301)).\n- Fixed a bug where `podman-remote manifest add --artifact` would fail when no storage driver was configured in storage.conf on the server ([#30280](https://github.com/podman-container-tools/podman/issues/30280)).\n- Fixed a bug where the podman machine state with the WSL provider was not parsed not correctly ([#30273](https://github.com/podman-container-tools/podman/issues/30273)).\n- Fixed a bug where `podman exec` could fail to set oom_score_adj as rootless user ([#30245](https://github.com/podman-container-tools/podman/issues/30245)).\n\n### Misc\n- Downgraded tags.cncf.io/container-device-interface to v1.1.0 ([#30233](https://github.com/podman-container-tools/podman/issues/30233)).\n\n",
   "reactions": {
     "url": "https://api.github.com/repos/podman-container-tools/podman/releases/457071413/reactions",
-    "total_count": 24,
-    "+1": 5,
+    "total_count": 27,
+    "+1": 6,
     "-1": 0,
     "laugh": 0,
     "hooray": 5,
     "confused": 0,
-    "heart": 7,
+    "heart": 8,
     "rocket": 7,
-    "eyes": 0
+    "eyes": 1
   }
 }
